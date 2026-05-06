@@ -1,0 +1,1743 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ===== SEO 基础 ===== -->
+  <title>李苑飞 - 官方下载软件站 | 正版软件官方下载导航</title>
+  <meta name="description" content="李苑飞整理的官方下载软件导航站，收录浏览器、开发工具、办公软件、设计创意、影音娱乐、系统工具等数百款软件的官方下载地址，安全可信，拒绝捆绑。" />
+  <meta name="keywords" content="李苑飞,官方下载,软件下载,正版软件,浏览器下载,开发工具下载,办公软件下载,设计软件下载,系统工具下载,官方下载站,lyf2nb" />
+  <meta name="author" content="李苑飞" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://lyf.download/" />
+
+  <!-- ===== Open Graph（微信/微博分享） ===== -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="李苑飞 - 官方下载软件站" />
+  <meta property="og:description" content="李苑飞整理的正版软件官方下载导航，收录数百款软件官方下载地址，安全无捆绑。" />
+  <meta property="og:url" content="https://lyf.download/" />
+  <meta property="og:locale" content="zh_CN" />
+  <meta property="og:site_name" content="李苑飞官方下载站" />
+
+  <!-- ===== Twitter Card ===== -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="李苑飞 - 官方下载软件站" />
+  <meta name="twitter:description" content="李苑飞整理的正版软件官方下载导航，数百款软件官方下载地址，安全可信。" />
+
+  <!-- ===== JSON-LD 结构化数据 ===== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "李苑飞官方下载站",
+    "alternateName": "官方下载 | 李苑飞",
+    "url": "https://lyf.download/",
+    "description": "李苑飞整理的正版软件官方下载导航站，收录数百款软件官方下载地址",
+    "author": {
+      "@type": "Person",
+      "name": "李苑飞",
+      "url": "https://github.com/lyf2nb"
+    },
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://lyf.download/?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    /* ========== 浅色模式（默认） ========== */
+    :root {
+      --bg: #f4f5f7;
+      --surface: #ffffff;
+      --surface2: #f0f1f3;
+      --border: #e2e4e8;
+      --accent: #6c5ce7;
+      --accent2: #7c6df0;
+      --text: #1a1a2e;
+      --muted: #71717a;
+      --green: #059669;
+      --red: #dc2626;
+      --radius: 10px;
+      --header-bg: rgba(255,255,255,0.82);
+      --shadow: rgba(0,0,0,0.06);
+    }
+
+    /* ========== 深色模式 ========== */
+    .dark {
+      --bg: #0e0e10;
+      --surface: #18181b;
+      --surface2: #222226;
+      --border: #2e2e35;
+      --accent: #7c6df0;
+      --accent2: #a78bfa;
+      --text: #e4e4e7;
+      --muted: #71717a;
+      --green: #34d399;
+      --red: #f87171;
+      --header-bg: rgba(14,14,16,0.85);
+      --shadow: rgba(0,0,0,0.3);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', 'HarmonyOS Sans SC', sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.6;
+      min-height: 100vh;
+      transition: background 0.35s ease, color 0.35s ease;
+    }
+
+    /* ── Header ── */
+    header {
+      border-bottom: 1px solid var(--border);
+      padding: 0 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 58px;
+      position: sticky;
+      top: 0;
+      background: var(--header-bg);
+      backdrop-filter: blur(12px);
+      z-index: 100;
+      transition: background 0.35s ease, border-color 0.35s ease;
+    }
+    .logo {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--accent2);
+      letter-spacing: 0.5px;
+      transition: color 0.35s ease;
+    }
+
+    header input[type="text"] {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      color: var(--text);
+      font-family: inherit;
+      font-size: 13px;
+      padding: 7px 14px;
+      width: 220px;
+      outline: none;
+      transition: border-color .2s, background 0.35s ease, color 0.35s ease;
+    }
+    header input[type="text"]:focus { border-color: var(--accent); }
+    header input[type="text"]::placeholder { color: var(--muted); }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .header-btn {
+      width: 34px; height: 34px;
+      display: flex; align-items: center; justify-content: center;
+      border: none; background: transparent;
+      color: var(--muted);
+      cursor: pointer;
+      border-radius: 8px;
+      font-size: 16px;
+      transition: background 0.15s, color 0.15s;
+    }
+    .header-btn:hover { background: var(--surface2); color: var(--text); }
+    .header-btn svg { width: 18px; height: 18px; }
+
+    /* pending badge */
+    .review-btn-wrap { position: relative; }
+    .pending-badge {
+      position: absolute;
+      top: 2px; right: 2px;
+      min-width: 16px; height: 16px;
+      background: var(--red);
+      color: #fff;
+      font-size: 10px;
+      font-family: 'JetBrains Mono', monospace;
+      border-radius: 99px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 4px;
+      line-height: 1;
+      opacity: 0;
+      transform: scale(0.5);
+      transition: opacity 0.2s, transform 0.2s;
+      pointer-events: none;
+    }
+    .pending-badge.show { opacity: 1; transform: scale(1); }
+
+    /* ── Layout ── */
+    .container {
+      display: grid;
+      grid-template-columns: 200px 1fr;
+      max-width: 1280px;
+      margin: 0 auto;
+      min-height: calc(100vh - 58px);
+    }
+
+    /* ── Sidebar ── */
+    aside {
+      border-right: 1px solid var(--border);
+      padding: 24px 0;
+      position: sticky;
+      top: 58px;
+      height: calc(100vh - 58px);
+      overflow-y: auto;
+      background: var(--bg);
+      transition: background 0.35s ease, border-color 0.35s ease;
+    }
+    .sidebar-label {
+      font-size: 10px;
+      letter-spacing: 1.5px;
+      color: var(--muted);
+      padding: 0 20px 10px;
+      text-transform: uppercase;
+    }
+    .cat-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 9px 20px;
+      cursor: pointer;
+      font-size: 13.5px;
+      color: var(--muted);
+      border-radius: 0;
+      transition: background .15s, color .15s;
+      border-left: 2px solid transparent;
+    }
+    .cat-item:hover { background: var(--surface); color: var(--text); }
+    .cat-item.active {
+      background: var(--surface);
+      color: var(--accent2);
+      border-left-color: var(--accent);
+    }
+    .cat-item .icon { font-size: 15px; width: 20px; text-align: center; }
+    .cat-count {
+      margin-left: auto;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      color: var(--muted);
+    }
+
+    /* ── Main ── */
+    main { padding: 28px 32px; }
+    .section-title {
+      font-size: 13px;
+      color: var(--muted);
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      transition: color 0.35s ease;
+    }
+    .section-title::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+      transition: background 0.35s ease;
+    }
+
+    /* ── Card ── */
+    .card-grid { display: flex; flex-direction: column; gap: 14px; }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 20px 22px;
+      box-shadow: 0 1px 3px var(--shadow);
+      transition: border-color .2s, background 0.35s ease, box-shadow 0.35s ease;
+    }
+    .card:hover { border-color: var(--accent); }
+
+    .card-header {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      margin-bottom: 12px;
+    }
+    .sw-icon {
+      width: 42px;
+      height: 42px;
+      border-radius: 8px;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      flex-shrink: 0;
+      overflow: hidden;
+      transition: background 0.35s ease, border-color 0.35s ease;
+    }
+    .sw-icon img { width: 32px; height: 32px; object-fit: contain; }
+
+    .card-meta h3 {
+      font-size: 15px;
+      font-weight: 500;
+      color: var(--text);
+      margin-bottom: 3px;
+      transition: color 0.35s ease;
+    }
+    .card-meta p {
+      font-size: 13px;
+      color: var(--muted);
+      line-height: 1.6;
+      transition: color 0.35s ease;
+    }
+
+    /* links row */
+    .links-row { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+    .btn-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 12px;
+      padding: 5px 12px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      background: var(--surface2);
+      color: var(--muted);
+      text-decoration: none;
+      transition: all .15s;
+      cursor: pointer;
+    }
+    .btn-link:hover { border-color: var(--accent); color: var(--accent2); }
+    .btn-link.official { color: var(--green); }
+    .btn-link.official:hover { border-color: var(--green); }
+    .btn-link.download { color: var(--accent2); }
+    .btn-link.download:hover { border-color: var(--accent); }
+
+    /* cracked links */
+    .cracked-section {
+      border-top: 1px solid var(--border);
+      padding-top: 12px;
+      transition: border-color 0.35s ease;
+    }
+    .cracked-label {
+      font-size: 11px;
+      color: var(--muted);
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .add-link-btn {
+      font-size: 11px;
+      color: var(--muted);
+      background: none;
+      border: 1px dashed var(--border);
+      border-radius: 5px;
+      padding: 3px 10px;
+      cursor: pointer;
+      transition: all .15s;
+    }
+    .add-link-btn:hover { border-color: var(--accent); color: var(--accent2); }
+
+    .cracked-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 10px;
+      border-radius: 6px;
+      background: var(--surface2);
+      margin-bottom: 6px;
+      border: 1px solid var(--border);
+      transition: background 0.35s ease, border-color 0.35s ease;
+    }
+    .cracked-item a {
+      flex: 1;
+      font-size: 12.5px;
+      color: var(--text);
+      text-decoration: none;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      transition: color .15s;
+    }
+    .cracked-item a:hover { color: var(--accent2); }
+    .cracked-item .date {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10px;
+      color: var(--muted);
+      flex-shrink: 0;
+    }
+    .vote-btn {
+      background: none;
+      border: 1px solid var(--border);
+      border-radius: 5px;
+      padding: 3px 9px;
+      cursor: pointer;
+      font-size: 12px;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      transition: all .15s;
+      white-space: nowrap;
+      color: var(--muted);
+    }
+    .vote-btn.like:hover { border-color: var(--green); color: var(--green); }
+    .vote-btn.dislike:hover { border-color: var(--red); color: var(--red); }
+    .vote-btn.voted-like { border-color: var(--green); color: var(--green); }
+    .vote-btn.voted-dislike { border-color: var(--red); color: var(--red); }
+    .vote-btn.delete-btn { font-size: 12px; }
+    .vote-btn.delete-btn:hover { border-color: var(--red); color: var(--red); }
+
+    .no-cracked {
+      font-size: 12px;
+      color: var(--muted);
+      font-style: italic;
+    }
+
+    /* ── Modal 通用 ── */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.5);
+      z-index: 200;
+      align-items: center;
+      justify-content: center;
+    }
+    .dark .modal-overlay { background: rgba(0,0,0,0.7); }
+    .modal-overlay.open { display: flex; }
+    .modal {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 28px;
+      width: 420px;
+      max-width: 90vw;
+      box-shadow: 0 20px 60px var(--shadow);
+      transition: background 0.35s ease, border-color 0.35s ease;
+    }
+    .modal.wide { width: 580px; max-height: 80vh; display: flex; flex-direction: column; }
+    .modal h4 { font-size: 15px; font-weight: 500; margin-bottom: 18px; color: var(--text); transition: color 0.35s ease; }
+    .modal input {
+      width: 100%;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 7px;
+      color: var(--text);
+      font-family: inherit;
+      font-size: 13px;
+      padding: 10px 14px;
+      margin-bottom: 10px;
+      outline: none;
+      transition: border-color .2s, background 0.35s ease, color 0.35s ease;
+    }
+    .modal input:focus { border-color: var(--accent); }
+    .modal input::placeholder { color: var(--muted); }
+    .modal-footer { display: flex; gap: 10px; margin-top: 6px; }
+    .btn-primary {
+      flex: 1;
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      border-radius: 7px;
+      padding: 10px;
+      font-size: 13px;
+      font-family: inherit;
+      cursor: pointer;
+      transition: opacity .2s;
+    }
+    .btn-primary:hover { opacity: 0.85; }
+    .btn-cancel {
+      background: none;
+      border: 1px solid var(--border);
+      border-radius: 7px;
+      padding: 10px 18px;
+      font-size: 13px;
+      font-family: inherit;
+      color: var(--muted);
+      cursor: pointer;
+      transition: border-color .2s, color 0.35s ease;
+    }
+    .btn-cancel:hover { border-color: var(--accent); color: var(--text); }
+    .modal-hint {
+      font-size: 12px;
+      color: var(--muted);
+      margin-bottom: 10px;
+      line-height: 1.6;
+    }
+
+    /* ── 审核列表 ── */
+    .review-list {
+      overflow-y: auto;
+      flex: 1;
+    }
+    .review-empty {
+      text-align: center;
+      color: var(--muted);
+      padding: 40px 0;
+      font-size: 13px;
+    }
+    .review-item {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 14px 16px;
+      margin-bottom: 10px;
+      transition: background 0.35s ease, border-color 0.35s ease;
+    }
+    .review-item-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 8px;
+    }
+    .review-sw-name {
+      font-size: 11px;
+      color: var(--muted);
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 2px 8px;
+      font-family: 'JetBrains Mono', monospace;
+    }
+    .review-date {
+      font-size: 10px;
+      color: var(--muted);
+      font-family: 'JetBrains Mono', monospace;
+    }
+    .review-label {
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--text);
+      margin-bottom: 4px;
+    }
+    .review-url {
+      font-size: 13px;
+      color: var(--accent2);
+      word-break: break-all;
+      margin-bottom: 12px;
+      display: block;
+    }
+    .review-actions {
+      display: flex;
+      gap: 8px;
+    }
+    .review-actions button {
+      flex: 1;
+      padding: 7px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-family: inherit;
+      cursor: pointer;
+      border: 1px solid var(--border);
+      transition: all .15s;
+    }
+    .btn-approve {
+      background: rgba(5,150,105,0.1);
+      color: var(--green);
+      border-color: var(--green);
+    }
+    .btn-approve:hover { background: rgba(5,150,105,0.2); }
+    .btn-reject {
+      background: transparent;
+      color: var(--muted);
+    }
+    .btn-reject:hover { border-color: var(--red); color: var(--red); }
+
+    /* ── Empty / Loading ── */
+    .empty { text-align: center; color: var(--muted); padding: 80px 0; font-size: 14px; }
+
+    /* scrollbar */
+    ::-webkit-scrollbar { width: 5px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+
+    /* 主题切换图标动画 */
+    .theme-btn { position: relative; }
+    .theme-btn .icon-sun,
+    .theme-btn .icon-moon {
+      position: absolute;
+      transition: transform 0.4s cubic-bezier(0.4,0,0.2,1), opacity 0.3s ease;
+    }
+    .theme-btn .icon-sun { transform: rotate(0deg) scale(1); opacity: 1; }
+    .theme-btn .icon-moon { transform: rotate(-90deg) scale(0.5); opacity: 0; }
+    .dark .theme-btn .icon-sun { transform: rotate(90deg) scale(0.5); opacity: 0; }
+    .dark .theme-btn .icon-moon { transform: rotate(0deg) scale(1); opacity: 1; }
+
+    /* 提交选择按钮 */
+    .submit-choice-btn {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 6px;
+      padding: 20px 12px;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      cursor: pointer;
+      font-family: inherit;
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--text);
+      transition: border-color .2s, background .15s;
+    }
+    .submit-choice-btn:hover { border-color: var(--accent); background: var(--surface); }
+
+    /* 审核 tab 切换 */
+    .review-tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 14px;
+      flex-shrink: 0;
+    }
+    .review-tab {
+      flex: 1;
+      padding: 7px;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 7px;
+      font-family: inherit;
+      font-size: 12px;
+      color: var(--muted);
+      cursor: pointer;
+      transition: all .15s;
+    }
+    .review-tab.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+    .review-tab:hover:not(.active) { border-color: var(--accent); color: var(--text); }
+
+    /* 待审核软件/分类卡片 */
+    .pending-sw-card, .pending-cat-card {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 14px 16px;
+      margin-bottom: 10px;
+    }
+    .pending-sw-card .sw-title { font-size: 14px; font-weight: 500; color: var(--text); margin-bottom: 4px; }
+    .pending-sw-card .sw-meta { font-size: 12px; color: var(--muted); margin-bottom: 3px; }
+    .pending-sw-card .sw-link { font-size: 11px; color: var(--accent2); word-break: break-all; margin-bottom: 10px; display:block; }
+    .pending-cat-card { display:flex; align-items:center; justify-content:space-between; }
+    .pending-cat-card .cat-title { font-size: 15px; color: var(--text); }
+
+    /* 删除管理面板 */
+    .manage-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 9px 12px;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 7px;
+      margin-bottom: 7px;
+    }
+    .manage-name {
+      flex: 1;
+      font-size: 13.5px;
+      color: var(--text);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .manage-cat {
+      font-size: 12px;
+      color: var(--muted);
+      white-space: nowrap;
+    }
+    .btn-danger-sm {
+      flex-shrink: 0;
+      padding: 4px 10px;
+      font-size: 12px;
+      font-family: inherit;
+      background: transparent;
+      border: 1px solid var(--red);
+      color: var(--red);
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background .15s, color .15s;
+    }
+    .btn-danger-sm:hover { background: var(--red); color: #fff; }
+    .btn-edit-sm {
+      flex-shrink: 0;
+      padding: 4px 10px;
+      font-size: 12px;
+      font-family: inherit;
+      background: transparent;
+      border: 1px solid var(--accent);
+      color: var(--accent2);
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background .15s, color .15s;
+    }
+    .btn-edit-sm:hover { background: var(--accent); color: #fff; }
+  </style>
+</head>
+<body>
+
+<!-- SEO 隐藏 H1，爬虫可读，视觉不干扰 -->
+<h1 style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;">李苑飞官方下载站 - 正版软件官方下载导航</h1>
+
+<header role="banner">
+  <a class="logo" href="/" title="李苑飞官方下载站" style="text-decoration:none;">lyf · 官方下载</a>
+  <a href="https://code-plan.official-download.cn/" target="_blank" rel="noopener" class="cta-pill">
+    <span class="cta-pill-icon">⚡</span>
+    <span class="cta-pill-text">
+      <span class="cta-pill-title">Coding Plan 消耗计算器</span>
+      <span class="cta-pill-sub">算算你每月真实烧了多少 Token →</span>
+    </span>
+    <span class="cta-pill-badge">免费</span>
+  </a>
+  <style>
+    .cta-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      text-decoration: none;
+      padding: 6px 12px 6px 10px;
+      border-radius: 999px;
+      border: 1.5px solid transparent;
+      background: linear-gradient(var(--header-bg, rgba(255,255,255,0.82)), var(--header-bg, rgba(255,255,255,0.82))) padding-box,
+                  linear-gradient(135deg, #6c5ce7, #a78bfa, #6c5ce7) border-box;
+      background-size: 200% 200%;
+      animation: pill-border-flow 3s linear infinite;
+      transition: transform 0.18s, box-shadow 0.18s;
+      position: relative;
+      overflow: hidden;
+    }
+    .cta-pill::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border-radius: 999px;
+      background: linear-gradient(135deg, rgba(108,92,231,0.08), rgba(167,139,250,0.12));
+      opacity: 0;
+      transition: opacity 0.18s;
+    }
+    .cta-pill:hover::before { opacity: 1; }
+    .cta-pill:hover { transform: translateY(-1px); box-shadow: 0 4px 18px rgba(108,92,231,0.28); }
+    .cta-pill:active { transform: translateY(0); }
+    @keyframes pill-border-flow {
+      0%   { background-position: 0% 50%; }
+      50%  { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+    .cta-pill-icon { font-size: 16px; line-height: 1; display:inline-block; animation: pill-zap 2.4s ease-in-out infinite; }
+    @keyframes pill-zap {
+      0%,100% { transform: scale(1) rotate(0deg); }
+      40%     { transform: scale(1.25) rotate(-8deg); }
+      55%     { transform: scale(0.95) rotate(4deg); }
+    }
+    .cta-pill-text { display: flex; flex-direction: column; gap: 1px; }
+    .cta-pill-title { font-size: 12.5px; font-weight: 600; color: var(--accent2); line-height: 1.2; white-space: nowrap; }
+    .cta-pill-sub   { font-size: 11px; color: var(--muted); line-height: 1.2; white-space: nowrap; }
+    .cta-pill-badge {
+      font-size: 10px; font-weight: 700; letter-spacing: 0.4px;
+      padding: 2px 7px; border-radius: 999px;
+      background: linear-gradient(135deg, #6c5ce7, #a78bfa);
+      color: #fff;
+      animation: badge-pulse 2.4s ease-in-out infinite;
+    }
+    @keyframes badge-pulse {
+      0%,100% { opacity: 1; }
+      50%     { opacity: 0.65; }
+    }
+  </style>
+  <div style="display:flex;align-items:center;gap:12px;">
+    <input type="text" id="searchInput" placeholder="搜索软件名称…" />
+    <div class="header-actions">
+<button class="header-btn" id="submitSwBtn" title="提交新软件 / 新分类">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
+      </button>
+      <button class="header-btn" id="aboutBtn" title="关于" style="font-size:14px;font-weight:700;font-family:'JetBrains Mono',monospace;">我</button>
+
+	    <!-- GitHub -->
+      <a class="header-btn" href="https://github.com/lyf2nb" target="_blank" title="GitHub">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+        </svg>
+      </a>
+      <!-- 审核按钮 -->
+      <div class="review-btn-wrap">
+        <button class="header-btn" id="reviewBtn" title="审核管理">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2"/>
+            <rect x="9" y="3" width="6" height="4" rx="1"/>
+            <path d="M9 14l2 2 4-4"/>
+          </svg>
+        </button>
+        <span class="pending-badge" id="pendingBadge">0</span>
+      </div>
+      <!-- 主题切换 -->
+      <button class="header-btn theme-btn" id="themeToggle" title="切换主题">
+        <span class="icon-sun">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+          </svg>
+        </span>
+        <span class="icon-moon">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+          </svg>
+        </span>
+      </button>
+    </div>
+  </div>
+</header>
+<div style="background:#fffbe6;border-bottom:1px solid #ffe58f;text-align:center;padding:8px 16px;font-size:13px;color:#7c6300;">
+  ⚠️ 该网站为AI开发，如有不准确请在作者 <a href="https://github.com/lyf2nb" target="_blank" rel="noopener" style="color:#d48806;font-weight:600;">GitHub 任意仓库</a> 提交 Issue 或发邮件至 <a href="mailto:lyf_fbq@163.com" style="color:#d48806;font-weight:600;">lyf_fbq@163.com</a>
+</div>
+
+<div class="container">
+  <aside role="navigation" aria-label="软件分类导航">
+    <div class="sidebar-label">分类</div>
+    <div id="catList"></div>
+  </aside>
+  <main id="mainContent" role="main" aria-label="软件列表">
+    <div class="empty">加载中…</div>
+  </main>
+</div>
+
+<!-- 提交链接 Modal（加了密码字段） -->
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal">
+    <h4>📎 提交破解 / 网络下载地址</h4>
+    <input type="text" id="modalLabel" placeholder="链接说明（如：PS 2024 破解版 GenP）" />
+    <input type="url" id="modalUrl" placeholder="链接地址 https://…" />
+    <input type="password" id="modalPassword" placeholder="管理员密码（选填，填写则直接发布）" />
+    <p class="modal-hint">不填密码 → 提交后等待管理员审核<br>填写正确密码 → 直接发布，无需审核</p>
+    <div class="modal-footer">
+      <button class="btn-cancel" onclick="closeModal()">取消</button>
+      <button class="btn-primary" onclick="submitLink()">提交</button>
+    </div>
+  </div>
+</div>
+
+<!-- 密码验证 Modal（删除链接时用） -->
+<div class="modal-overlay" id="passwordOverlay">
+  <div class="modal" style="width:360px;">
+    <h4>🔐 管理员验证</h4>
+    <input type="password" id="deletePassword" placeholder="请输入管理员密码" />
+    <div class="modal-footer">
+      <button class="btn-cancel" onclick="closePasswordPrompt()">取消</button>
+      <button class="btn-primary" onclick="confirmDelete()">确认删除</button>
+    </div>
+  </div>
+</div>
+
+<!-- 审核面板 Modal -->
+<div class="modal-overlay" id="reviewOverlay">
+  <div class="modal wide">
+    <h4>📋 待审核内容</h4>
+    <div class="review-list" id="reviewList">
+      <div class="review-empty">加载中…</div>
+    </div>
+    <div class="modal-footer" style="margin-top:16px;">
+      <button class="btn-cancel" onclick="closeReviewPanel()">关闭</button>
+    </div>
+  </div>
+</div>
+
+<!-- 提交入口 Modal（选择类型） -->
+<div class="modal-overlay" id="submitChoiceOverlay">
+  <div class="modal" style="width:380px;">
+    <h4>➕ 你想提交什么？</h4>
+    <div style="display:flex;gap:12px;margin-top:8px;">
+      <button class="submit-choice-btn" onclick="openSubmitSw()">
+        <span style="font-size:28px;">📦</span>
+        <span>新软件</span>
+        <span style="font-size:11px;color:var(--muted);">添加一个新软件条目</span>
+      </button>
+      <button class="submit-choice-btn" onclick="openSubmitCat()">
+        <span style="font-size:28px;">🗂️</span>
+        <span>新分类</span>
+        <span style="font-size:11px;color:var(--muted);">添加一个新软件分类</span>
+      </button>
+    </div>
+    <div class="modal-footer" style="margin-top:16px;">
+      <button class="btn-cancel" onclick="closeSubmitChoice()">取消</button>
+    </div>
+  </div>
+</div>
+
+<!-- 提交新软件 Modal -->
+<div class="modal-overlay" id="submitSwOverlay">
+  <div class="modal" style="width:500px;max-height:90vh;overflow-y:auto;">
+    <h4>📦 提交新软件</h4>
+    <p class="modal-hint">带 * 为必填项。不填密码则提交审核，填写管理员密码则直接发布。</p>
+    <input type="text" id="swName" placeholder="软件名称 *" />
+    <select id="swCategory" style="width:100%;background:var(--surface2);border:1px solid var(--border);border-radius:7px;color:var(--text);font-family:inherit;font-size:13px;padding:10px 14px;margin-bottom:10px;outline:none;transition:border-color .2s,background .35s;">
+      <option value="">选择分类 *</option>
+    </select>
+    <input type="text" id="swDesc" placeholder="一句话介绍（选填）" />
+    <input type="url" id="swIcon" placeholder="图标 URL（选填，留空显示首字母）" />
+    <input type="url" id="swOfficialUrl" placeholder="官网地址 * https://…" />
+    <input type="url" id="swOfficialDownload" placeholder="官方下载地址 * https://…" />
+    <input type="password" id="swPassword" placeholder="管理员密码（选填，填写则直接发布）" />
+    <div class="modal-footer">
+      <button class="btn-cancel" onclick="closeSubmitSw()">取消</button>
+      <button class="btn-primary" onclick="submitSoftware()">提交</button>
+    </div>
+  </div>
+</div>
+
+<!-- 提交新分类 Modal -->
+<div class="modal-overlay" id="submitCatOverlay">
+  <div class="modal" style="width:400px;">
+    <h4>🗂️ 提交新分类</h4>
+    <p class="modal-hint">不填密码则提交审核，填写管理员密码则直接发布。</p>
+    <input type="text" id="catName" placeholder="分类名称 * （如：云存储）" />
+    <input type="text" id="catIcon" placeholder="分类图标 Emoji（选填，默认 📁）" maxlength="4" />
+    <input type="password" id="catPassword" placeholder="管理员密码（选填，填写则直接发布）" />
+    <div class="modal-footer">
+      <button class="btn-cancel" onclick="closeSubmitCat()">取消</button>
+      <button class="btn-primary" onclick="submitCategory()">提交</button>
+    </div>
+  </div>
+</div>
+
+<!-- 编辑软件 Modal -->
+<div class="modal-overlay" id="editSwOverlay">
+  <div class="modal" style="width:500px;max-height:90vh;overflow-y:auto;">
+    <h4>✏️ 编辑软件信息</h4>
+    <input type="hidden" id="editSwId" />
+    <input type="text" id="editSwName" placeholder="软件名称 *" />
+    <select id="editSwCategory" style="width:100%;background:var(--surface2);border:1px solid var(--border);border-radius:7px;color:var(--text);font-family:inherit;font-size:13px;padding:10px 14px;margin-bottom:10px;outline:none;transition:border-color .2s,background .35s;"></select>
+    <input type="text" id="editSwDesc" placeholder="一句话介绍" />
+    <input type="url" id="editSwIcon" placeholder="图标 URL（留空显示首字母）" />
+    <input type="url" id="editSwOfficialUrl" placeholder="官网地址 * https://…" />
+    <input type="url" id="editSwOfficialDownload" placeholder="官方下载地址 * https://…" />
+    <div class="modal-footer">
+      <button class="btn-cancel" onclick="closeEditSw()">取消</button>
+      <button class="btn-primary" onclick="submitEditSw()">保存修改</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- 以下是你原始的全部业务逻辑，仅改动 submitLink 和 renderCrackedItem -->
+<!-- ============================================================ -->
+<script>
+  let appData = null
+  let activeCat = 'all'
+  let searchQuery = ''
+  let currentSoftwareId = null
+  const voted = JSON.parse(localStorage.getItem('voted') || '{}')
+
+  const catList = document.getElementById('catList')
+  const mainContent = document.getElementById('mainContent')
+  const searchInput = document.getElementById('searchInput')
+
+  // ── 初始化 ──
+  async function init() {
+    const res = await fetch('/api/data')
+    appData = await res.json()
+    renderSidebar()
+    renderMain()
+    fetchPendingCount()
+  }
+
+  // ── 侧边栏（未动） ──
+  function renderSidebar() {
+    const cats = [{ id: 'all', name: '全部软件', icon: '📦' }, ...appData.categories]
+    catList.innerHTML = cats.map(c => {
+      const count = c.id === 'all'
+        ? appData.software.length
+        : appData.software.filter(s => s.category === c.id).length
+      return `<div class="cat-item ${activeCat === c.id ? 'active' : ''}" onclick="setCategory('${c.id}')">
+        <span class="icon">${c.icon}</span>
+        ${c.name}
+        <span class="cat-count">${count}</span>
+      </div>`
+    }).join('')
+  }
+
+  function setCategory(id) {
+    activeCat = id
+    renderSidebar()
+    renderMain()
+  }
+
+  // ── 主内容（未动） ──
+  function renderMain() {
+    let list = appData.software
+    if (activeCat !== 'all') list = list.filter(s => s.category === activeCat)
+    if (searchQuery) list = list.filter(s => {
+      const cat = appData.categories.find(c => c.id === s.category)
+      return s.name.toLowerCase().includes(searchQuery) ||
+        s.description.toLowerCase().includes(searchQuery) ||
+        (cat && cat.name.toLowerCase().includes(searchQuery))
+    })
+
+    if (!list.length) {
+      mainContent.innerHTML = '<div class="empty">暂无软件</div>'
+      return
+    }
+
+    const groups = {}
+    for (const sw of list) {
+      const cat = appData.categories.find(c => c.id === sw.category)
+      const key = cat ? `${cat.icon} ${cat.name}` : '其他'
+      if (!groups[key]) groups[key] = []
+      groups[key].push(sw)
+    }
+
+    let html = ''
+    for (const [title, items] of Object.entries(groups)) {
+      html += `<div class="section-title">${title}</div><div class="card-grid">`
+      html += items.map(sw => renderCard(sw)).join('')
+      html += `</div><br>`
+    }
+    mainContent.innerHTML = html
+  }
+
+  function renderCard(sw) {
+    const iconHtml = sw.icon
+      ? `<img src="${sw.icon}" alt="${sw.name} 图标" loading="lazy" onerror="this.style.display='none'" />`
+      : sw.name.slice(0, 1)
+
+    const crackedHtml = sw.crackedLinks.length === 0
+      ? `<span class="no-cracked">暂无网络下载地址</span>`
+      : [...sw.crackedLinks].sort((a, b) => (b.likes - b.dislikes) - (a.likes - a.dislikes))
+          .map(l => renderCrackedItem(sw.id, l)).join('')
+
+    return `
+    <article class="card" id="card-${sw.id}" itemscope itemtype="https://schema.org/SoftwareApplication">
+      <meta itemprop="name" content="${sw.name}" />
+      <meta itemprop="description" content="${sw.description}" />
+      <div class="card-header">
+        <div class="sw-icon">${iconHtml}</div>
+        <div class="card-meta">
+          <h3 itemprop="name">${sw.name}</h3>
+          <p itemprop="description">${sw.description}</p>
+        </div>
+      </div>
+      <div class="links-row">
+        <a class="btn-link official" href="${sw.officialUrl}" target="_blank" rel="noopener noreferrer"
+           title="${sw.name} 官网" itemprop="url">🌐 官网</a>
+        <a class="btn-link download" href="${sw.officialDownload}" target="_blank" rel="noopener noreferrer"
+           title="${sw.name} 官方下载 - 李苑飞整理" itemprop="downloadUrl">⬇️ 官方下载</a>
+      </div>
+      <div class="cracked-section">
+        <div class="cracked-label">
+          <span>🔓 网络下载 / 破解版</span>
+          <button class="add-link-btn" onclick="openModal('${sw.id}')">+ 提交链接</button>
+        </div>
+        <div id="cracked-${sw.id}">${crackedHtml}</div>
+      </div>
+    </article>`
+  }
+
+  // ── 改动：加了删除按钮 ──
+  function renderCrackedItem(swId, l) {
+    const voteKey = `${swId}-${l.id}`
+    const myVote = voted[voteKey] || null
+    return `
+    <div class="cracked-item" id="cracked-item-${l.id}">
+      <a href="${l.url}" target="_blank" title="${l.url}">${l.label}</a>
+      <span class="date">${l.submittedAt}</span>
+      <button class="vote-btn like ${myVote === 'like' ? 'voted-like' : ''}"
+        onclick="vote('${swId}', '${l.id}', 'like')">
+        👍 <span id="like-${l.id}">${l.likes}</span>
+      </button>
+      <button class="vote-btn dislike ${myVote === 'dislike' ? 'voted-dislike' : ''}"
+        onclick="vote('${swId}', '${l.id}', 'dislike')">
+        ❌ <span id="dislike-${l.id}">${l.dislikes}</span>
+      </button>
+      <button class="vote-btn delete-btn" onclick="requestDelete('${swId}', '${l.id}')" title="删除链接">🗑</button>
+    </div>`
+  }
+
+  // ── 投票（未动） ──
+  async function vote(swId, linkId, type) {
+    const voteKey = `${swId}-${linkId}`
+    if (voted[voteKey]) return
+
+    const res = await fetch(`/api/vote/${swId}/${linkId}/${type}`, { method: 'POST' })
+    const data = await res.json()
+
+    document.getElementById(`like-${linkId}`).textContent = data.likes
+    document.getElementById(`dislike-${linkId}`).textContent = data.dislikes
+
+    voted[voteKey] = type
+    localStorage.setItem('voted', JSON.stringify(voted))
+
+    const btn = document.querySelector(`#cracked-item-${linkId} .vote-btn.${type}`)
+    btn.classList.add(type === 'like' ? 'voted-like' : 'voted-dislike')
+  }
+
+  // ── 改动：提交链接，支持密码，区分直接发布和进审核 ──
+  function openModal(swId) {
+    currentSoftwareId = swId
+    document.getElementById('modalLabel').value = ''
+    document.getElementById('modalUrl').value = ''
+    document.getElementById('modalPassword').value = ''
+    document.getElementById('modalOverlay').classList.add('open')
+  }
+  function closeModal() {
+    document.getElementById('modalOverlay').classList.remove('open')
+    currentSoftwareId = null
+  }
+  document.getElementById('modalOverlay').addEventListener('click', e => {
+    if (e.target === e.currentTarget) closeModal()
+  })
+
+  async function submitLink() {
+    const label = document.getElementById('modalLabel').value.trim()
+    const url = document.getElementById('modalUrl').value.trim()
+    const password = document.getElementById('modalPassword').value.trim()
+    if (!label || !url) return alert('请填写链接说明和地址')
+
+    const res = await fetch(`/api/software/${currentSoftwareId}/cracked`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ label, url, password })
+    })
+    if (!res.ok) {
+      const err = await res.json()
+      return alert(err.error || '提交失败')
+    }
+
+    const result = await res.json()
+
+    if (result.isAdmin) {
+      // 管理员直接发布，立刻显示
+      const sw = appData.software.find(s => s.id === currentSoftwareId)
+      sw.crackedLinks.push(result)
+      const container = document.getElementById(`cracked-${currentSoftwareId}`)
+      const noEl = container.querySelector('.no-cracked')
+      if (noEl) noEl.remove()
+      container.insertAdjacentHTML('beforeend', renderCrackedItem(currentSoftwareId, result))
+      alert('✅ 已直接发布')
+    } else {
+      // 普通用户提交，进审核队列
+      alert('✅ 已提交，等待管理员审核')
+    }
+
+    closeModal()
+  }
+
+  // ── 搜索（未动） ──
+  searchInput.addEventListener('input', e => {
+    searchQuery = e.target.value.trim().toLowerCase()
+    renderMain()
+  })
+
+  // ============================================================
+  // 以下为新增功能：删除链接 / 审核面板
+  // ============================================================
+
+  let pendingDeleteSwId = null
+  let pendingDeleteLinkId = null
+
+  // 请求删除 → 弹出密码框
+  function requestDelete(swId, linkId) {
+    pendingDeleteSwId = swId
+    pendingDeleteLinkId = linkId
+    document.getElementById('deletePassword').value = ''
+    document.getElementById('passwordOverlay').classList.add('open')
+  }
+
+  function closePasswordPrompt() {
+    document.getElementById('passwordOverlay').classList.remove('open')
+    pendingDeleteSwId = null
+    pendingDeleteLinkId = null
+  }
+  document.getElementById('passwordOverlay').addEventListener('click', e => {
+    if (e.target === e.currentTarget) closePasswordPrompt()
+  })
+
+  // 确认删除
+  async function confirmDelete() {
+    const password = document.getElementById('deletePassword').value.trim()
+    if (!password) return alert('请输入密码')
+
+    const res = await fetch(`/api/software/${pendingDeleteSwId}/cracked/${pendingDeleteLinkId}`, {
+      method: 'DELETE',
+      headers: { 'x-admin-token': password }
+    })
+
+    if (!res.ok) {
+      const err = await res.json()
+      return alert(err.error || '删除失败')
+    }
+
+    // 从页面上移除
+    const el = document.getElementById(`cracked-item-${pendingDeleteLinkId}`)
+    if (el) {
+      el.style.transition = 'opacity 0.2s, transform 0.2s'
+      el.style.opacity = '0'
+      el.style.transform = 'translateX(20px)'
+      setTimeout(() => el.remove(), 200)
+    }
+
+    // 从本地数据移除
+    const sw = appData.software.find(s => s.id === pendingDeleteSwId)
+    if (sw) {
+      sw.crackedLinks = sw.crackedLinks.filter(l => l.id !== pendingDeleteLinkId)
+    }
+
+    closePasswordPrompt()
+    fetchPendingCount()
+  }
+
+  // ── 获取待审核数量（显示角标） ──
+  async function fetchPendingCount() {
+    try {
+      // 不传密码，如果403就算了，只是更新角标
+      const res = await fetch('/api/pending', {
+        headers: { 'x-admin-token': '' }
+      })
+      if (res.ok) {
+        const list = await res.json()
+        updatePendingBadge(list.length)
+      }
+    } catch {}
+  }
+
+  function updatePendingBadge(count) {
+    const badge = document.getElementById('pendingBadge')
+    badge.textContent = count > 99 ? '99+' : count
+    if (count > 0) {
+      badge.classList.add('show')
+    } else {
+      badge.classList.remove('show')
+    }
+  }
+
+  // ── 审核面板 ──
+  let reviewPassword = ''
+
+  document.getElementById('reviewBtn').addEventListener('click', () => {
+    const saved = sessionStorage.getItem('adminToken') || ''
+    reviewPassword = saved
+    if (saved) {
+      // 已有缓存密码，直接尝试进入
+      fetch('/api/pending', { headers: { 'x-admin-token': saved } }).then(res => {
+        if (res.ok) {
+          res.json().then(list => renderReviewList(list))
+          document.getElementById('reviewOverlay').classList.add('open')
+        } else {
+          // 缓存密码失效，清除后展示输入框
+          sessionStorage.removeItem('adminToken')
+          reviewPassword = ''
+          showReviewPasswordInput()
+          document.getElementById('reviewOverlay').classList.add('open')
+        }
+      })
+    } else {
+      showReviewPasswordInput()
+      document.getElementById('reviewOverlay').classList.add('open')
+    }
+  })
+
+  function showReviewPasswordInput() {
+    document.getElementById('reviewList').innerHTML = `
+      <div style="margin-bottom:14px;">
+        <input type="password" id="reviewPasswordInput" placeholder="请输入管理员密码以查看待审核内容" style="width:100%;background:var(--surface2);border:1px solid var(--border);border-radius:7px;color:var(--text);font-family:inherit;font-size:13px;padding:10px 14px;outline:none;" />
+        <div style="margin-top:10px;text-align:right;">
+          <button class="btn-primary" style="flex:none;padding:8px 24px;" onclick="enterReview()">进入审核</button>
+        </div>
+      </div>`
+  }
+
+  function closeReviewPanel() {
+    document.getElementById('reviewOverlay').classList.remove('open')
+  }
+  document.getElementById('reviewOverlay').addEventListener('click', e => {
+    if (e.target === e.currentTarget) closeReviewPanel()
+  })
+
+  async function enterReview() {
+    const pwd = document.getElementById('reviewPasswordInput').value.trim()
+    if (!pwd) return alert('请输入密码')
+
+    const res = await fetch('/api/pending', {
+      headers: { 'x-admin-token': pwd }
+    })
+    if (!res.ok) return alert(res.status === 403 ? '密码错误' : '获取失败')
+
+    reviewPassword = pwd
+    sessionStorage.setItem('adminToken', pwd)
+    const list = await res.json()
+    renderReviewList(list)
+  }
+
+  // ── 审核面板：四个 tab（链接 / 软件 / 分类 / 管理已上线） ──
+  function renderReviewList(linkList) {
+    const container = document.getElementById('reviewList')
+    container.innerHTML = `
+      <div class="review-tabs">
+        <button class="review-tab active" id="tab-links" onclick="switchReviewTab('links')">🔗 链接 <span id="tab-links-count"></span></button>
+        <button class="review-tab" id="tab-software" onclick="switchReviewTab('software')">📦 软件 <span id="tab-sw-count"></span></button>
+        <button class="review-tab" id="tab-categories" onclick="switchReviewTab('categories')">🗂️ 分类 <span id="tab-cat-count"></span></button>
+        <button class="review-tab" id="tab-manage" onclick="switchReviewTab('manage')">🗑️ 删除管理</button>
+      </div>
+      <div id="review-panel-links"></div>
+      <div id="review-panel-software" style="display:none;"></div>
+      <div id="review-panel-categories" style="display:none;"></div>
+      <div id="review-panel-manage" style="display:none;"></div>
+    `
+    renderLinkPanel(linkList)
+    loadPendingSoftware()
+    loadPendingCategories()
+  }
+
+  function switchReviewTab(tab) {
+    ['links','software','categories','manage'].forEach(t => {
+      document.getElementById(`tab-${t}`).classList.toggle('active', t === tab)
+      document.getElementById(`review-panel-${t}`).style.display = t === tab ? '' : 'none'
+    })
+    if (tab === 'manage') loadManagePanel()
+  }
+
+  // ── 删除管理面板 ──
+  async function loadManagePanel() {
+    const el = document.getElementById('review-panel-manage')
+    el.innerHTML = '<div class="review-empty">加载中…</div>'
+    const data = appData
+    const catMap = {}
+    data.categories.forEach(c => { catMap[c.id] = c })
+
+    el.innerHTML = `
+      <div style="margin-bottom:20px;">
+        <div style="font-size:12px;letter-spacing:1px;color:var(--muted);text-transform:uppercase;margin-bottom:12px;">已上线软件（${data.software.length}）</div>
+        ${data.software.length === 0 ? '<div class="review-empty">暂无软件</div>' : data.software.map(sw => `
+          <div class="manage-row" id="manage-sw-${sw.id}">
+            <span class="manage-name">${sw.icon ? `<img src="${sw.icon}" onerror="this.style.display='none'" style="width:16px;height:16px;vertical-align:middle;margin-right:6px;">` : ''}${sw.name}</span>
+            <span class="manage-cat">${catMap[sw.category]?.icon || ''} ${catMap[sw.category]?.name || sw.category}</span>
+            <button class="btn-edit-sm" onclick="openEditSw('${sw.id}')">✏️ 编辑</button>
+            <button class="btn-danger-sm" onclick="deleteSoftware('${sw.id}','${sw.name.replace(/'/g,'\u2019')}')">🗑️ 删除</button>
+          </div>
+        `).join('')}
+      </div>
+      <div>
+        <div style="font-size:12px;letter-spacing:1px;color:var(--muted);text-transform:uppercase;margin-bottom:12px;">已上线分类（${data.categories.length}）</div>
+        ${data.categories.map(cat => `
+          <div class="manage-row" id="manage-cat-${cat.id}">
+            <span class="manage-name">${cat.icon} ${cat.name}</span>
+            <span class="manage-cat" style="color:var(--muted);font-size:12px;">含软件 ${data.software.filter(s=>s.category===cat.id).length} 个</span>
+            <button class="btn-danger-sm" onclick="deleteCategory('${cat.id}','${cat.name.replace(/'/g,'\u2019')}')">🗑️ 删除</button>
+          </div>
+        `).join('')}
+      </div>
+    `
+  }
+
+  // ── 编辑软件 Modal ──
+  function openEditSw(swId) {
+    const sw = appData.software.find(s => s.id === swId)
+    if (!sw) return
+    document.getElementById('editSwId').value = sw.id
+    document.getElementById('editSwName').value = sw.name
+    document.getElementById('editSwDesc').value = sw.description || ''
+    document.getElementById('editSwIcon').value = sw.icon || ''
+    document.getElementById('editSwOfficialUrl').value = sw.officialUrl || ''
+    document.getElementById('editSwOfficialDownload').value = sw.officialDownload || ''
+    // 填充分类下拉
+    const sel = document.getElementById('editSwCategory')
+    sel.innerHTML = appData.categories.map(c =>
+      `<option value="${c.id}" ${c.id === sw.category ? 'selected' : ''}>${c.icon} ${c.name}</option>`
+    ).join('')
+    document.getElementById('editSwOverlay').classList.add('open')
+  }
+  function closeEditSw() {
+    document.getElementById('editSwOverlay').classList.remove('open')
+  }
+  document.getElementById('editSwOverlay').addEventListener('click', e => {
+    if (e.target === e.currentTarget) closeEditSw()
+  })
+
+  async function submitEditSw() {
+    const id = document.getElementById('editSwId').value
+    const body = {
+      name: document.getElementById('editSwName').value.trim(),
+      category: document.getElementById('editSwCategory').value,
+      description: document.getElementById('editSwDesc').value.trim(),
+      icon: document.getElementById('editSwIcon').value.trim(),
+      officialUrl: document.getElementById('editSwOfficialUrl').value.trim(),
+      officialDownload: document.getElementById('editSwOfficialDownload').value.trim(),
+    }
+    if (!body.name || !body.officialUrl || !body.officialDownload) {
+      return alert('名称、官网、官方下载地址不能为空')
+    }
+    const res = await fetch(`/api/software/${id}`, {
+      method: 'PATCH',
+      headers: { 'Content-Type': 'application/json', 'x-admin-token': reviewPassword },
+      body: JSON.stringify(body)
+    })
+    if (!res.ok) { const err = await res.json(); return alert(err.error || '修改失败') }
+    // 更新本地缓存并刷新
+    const r2 = await fetch('/api/data')
+    appData = await r2.json()
+    renderSidebar()
+    renderMain()
+    closeEditSw()
+    loadManagePanel()
+  }
+
+  async function deleteSoftware(id, name) {
+    if (!confirm(`确定删除软件「${name}」？此操作不可恢复。`)) return
+    const res = await fetch(`/api/software/${id}`, {
+      method: 'DELETE',
+      headers: { 'x-admin-token': reviewPassword }
+    })
+    if (!res.ok) return alert('删除失败')
+    animateRemove(`manage-sw-${id}`, false, async () => {
+      const r2 = await fetch('/api/data')
+      appData = await r2.json()
+      renderSidebar()
+      renderMain()
+      loadManagePanel()
+    })
+  }
+
+  async function deleteCategory(id, name) {
+    const swCount = appData.software.filter(s => s.category === id).length
+    const warn = swCount > 0 ? `\n⚠️ 该分类下有 ${swCount} 个软件也将一并删除！` : ''
+    if (!confirm(`确定删除分类「${name}」？${warn}\n此操作不可恢复。`)) return
+    const res = await fetch(`/api/category/${id}`, {
+      method: 'DELETE',
+      headers: { 'x-admin-token': reviewPassword }
+    })
+    if (!res.ok) return alert('删除失败')
+    animateRemove(`manage-cat-${id}`, false, async () => {
+      const r2 = await fetch('/api/data')
+      appData = await r2.json()
+      renderSidebar()
+      renderMain()
+      loadManagePanel()
+    })
+  }
+
+  // 链接审核面板
+  function renderLinkPanel(list) {
+    const el = document.getElementById('review-panel-links')
+    const countEl = document.getElementById('tab-links-count')
+    if (!list.length) {
+      el.innerHTML = '<div class="review-empty">🎉 没有待审核的链接</div>'
+      countEl.textContent = ''
+      return
+    }
+    countEl.textContent = `(${list.length})`
+    el.innerHTML = list.map(item => `
+      <div class="review-item" id="review-${item.id}">
+        <div class="review-item-header">
+          <span class="review-sw-name">${item.softwareName}</span>
+          <span class="review-date">${item.submittedAt}</span>
+        </div>
+        <div class="review-label">${item.label}</div>
+        <a class="review-url" href="${item.url}" target="_blank">${item.url}</a>
+        <div class="review-actions">
+          <button class="btn-approve" onclick="reviewLinkAction('${item.softwareId}','${item.id}',true)">✅ 通过并发布</button>
+          <button class="btn-reject" onclick="reviewLinkAction('${item.softwareId}','${item.id}',false)">❌ 拒绝并删除</button>
+        </div>
+      </div>
+    `).join('')
+    updatePendingBadge(list.length)
+  }
+
+  async function reviewLinkAction(swId, linkId, approved) {
+    const res = await fetch(`/api/review/${swId}/${linkId}`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'x-admin-token': reviewPassword },
+      body: JSON.stringify({ approved })
+    })
+    if (!res.ok) return alert('操作失败')
+    animateRemove(`review-${linkId}`, approved, () => {
+      const remaining = document.querySelectorAll('#review-panel-links .review-item')
+      if (remaining.length === 0) document.getElementById('review-panel-links').innerHTML = '<div class="review-empty">🎉 没有待审核的链接</div>'
+    })
+    if (approved) { const r2 = await fetch('/api/data'); appData = await r2.json(); renderMain() }
+  }
+
+  // 待审核软件面板
+  async function loadPendingSoftware() {
+    const el = document.getElementById('review-panel-software')
+    const countEl = document.getElementById('tab-sw-count')
+    try {
+      const res = await fetch('/api/pending/software', { headers: { 'x-admin-token': reviewPassword } })
+      if (!res.ok) { el.innerHTML = '<div class="review-empty">加载失败</div>'; return }
+      const list = await res.json()
+      countEl.textContent = list.length ? `(${list.length})` : ''
+      if (!list.length) { el.innerHTML = '<div class="review-empty">🎉 没有待审核的软件</div>'; return }
+      el.innerHTML = list.map(sw => `
+        <div class="pending-sw-card" id="pending-sw-${sw.id}">
+          <div class="sw-title">${sw.icon ? sw.icon + ' ' : ''}${sw.name}</div>
+          <div class="sw-meta">分类：${sw.category} &nbsp;·&nbsp; ${sw.submittedAt}</div>
+          <div class="sw-meta">${sw.description || '（无描述）'}</div>
+          <a class="sw-link" href="${sw.officialUrl}" target="_blank">官网：${sw.officialUrl}</a>
+          <div class="review-actions">
+            <button class="btn-approve" onclick="reviewSwAction('${sw.id}',true)">✅ 通过并发布</button>
+            <button class="btn-reject" onclick="reviewSwAction('${sw.id}',false)">❌ 拒绝并删除</button>
+          </div>
+        </div>
+      `).join('')
+    } catch { el.innerHTML = '<div class="review-empty">加载失败</div>' }
+  }
+
+  async function reviewSwAction(swId, approved) {
+    const res = await fetch(`/api/review/software/${swId}`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'x-admin-token': reviewPassword },
+      body: JSON.stringify({ approved })
+    })
+    if (!res.ok) return alert('操作失败')
+    animateRemove(`pending-sw-${swId}`, approved, () => {
+      const remaining = document.querySelectorAll('#review-panel-software .pending-sw-card')
+      if (remaining.length === 0) document.getElementById('review-panel-software').innerHTML = '<div class="review-empty">🎉 没有待审核的软件</div>'
+      document.getElementById('tab-sw-count').textContent = remaining.length > 0 ? `(${remaining.length})` : ''
+    })
+    if (approved) { const r2 = await fetch('/api/data'); appData = await r2.json(); renderMain(); renderSidebar() }
+  }
+
+  // 待审核分类面板
+  async function loadPendingCategories() {
+    const el = document.getElementById('review-panel-categories')
+    const countEl = document.getElementById('tab-cat-count')
+    try {
+      const res = await fetch('/api/pending/categories', { headers: { 'x-admin-token': reviewPassword } })
+      if (!res.ok) { el.innerHTML = '<div class="review-empty">加载失败</div>'; return }
+      const list = await res.json()
+      countEl.textContent = list.length ? `(${list.length})` : ''
+      if (!list.length) { el.innerHTML = '<div class="review-empty">🎉 没有待审核的分类</div>'; return }
+      el.innerHTML = list.map(cat => `
+        <div class="pending-cat-card" id="pending-cat-${cat.id}">
+          <span class="cat-title">${cat.icon} ${cat.name}</span>
+          <div class="review-actions" style="margin-bottom:0;">
+            <button class="btn-approve" onclick="reviewCatAction('${cat.id}',true)">✅ 通过</button>
+            <button class="btn-reject" onclick="reviewCatAction('${cat.id}',false)">❌ 拒绝</button>
+          </div>
+        </div>
+      `).join('')
+    } catch { el.innerHTML = '<div class="review-empty">加载失败</div>' }
+  }
+
+  async function reviewCatAction(catId, approved) {
+    const res = await fetch(`/api/review/category/${catId}`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'x-admin-token': reviewPassword },
+      body: JSON.stringify({ approved })
+    })
+    if (!res.ok) return alert('操作失败')
+    animateRemove(`pending-cat-${catId}`, approved, () => {
+      const remaining = document.querySelectorAll('#review-panel-categories .pending-cat-card')
+      if (remaining.length === 0) document.getElementById('review-panel-categories').innerHTML = '<div class="review-empty">🎉 没有待审核的分类</div>'
+      document.getElementById('tab-cat-count').textContent = remaining.length > 0 ? `(${remaining.length})` : ''
+    })
+    if (approved) { const r2 = await fetch('/api/data'); appData = await r2.json(); renderSidebar() }
+  }
+
+  // 删除动画辅助
+  function animateRemove(id, approved, cb) {
+    const el = document.getElementById(id)
+    if (!el) return cb && cb()
+    el.style.transition = 'opacity 0.2s, transform 0.2s'
+    el.style.opacity = '0'
+    el.style.transform = approved ? 'translateX(-20px)' : 'translateX(20px)'
+    setTimeout(() => { el.remove(); cb && cb() }, 200)
+  }
+
+  // ── 提交入口 Modal ──
+  document.getElementById('submitSwBtn').addEventListener('click', () => {
+    document.getElementById('submitChoiceOverlay').classList.add('open')
+  })
+  function closeSubmitChoice() {
+    document.getElementById('submitChoiceOverlay').classList.remove('open')
+  }
+  document.getElementById('submitChoiceOverlay').addEventListener('click', e => {
+    if (e.target === e.currentTarget) closeSubmitChoice()
+  })
+
+  // ── 提交新软件 ──
+  function openSubmitSw() {
+    closeSubmitChoice()
+    // 填充分类下拉
+    const sel = document.getElementById('swCategory')
+    sel.innerHTML = '<option value="">选择分类 *</option>' +
+      appData.categories.map(c => `<option value="${c.id}">${c.icon} ${c.name}</option>`).join('')
+    // 清空表单
+    ;['swName','swDesc','swIcon','swOfficialUrl','swOfficialDownload','swPassword'].forEach(id => {
+      document.getElementById(id).value = ''
+    })
+    document.getElementById('submitSwOverlay').classList.add('open')
+  }
+  function closeSubmitSw() {
+    document.getElementById('submitSwOverlay').classList.remove('open')
+  }
+  document.getElementById('submitSwOverlay').addEventListener('click', e => {
+    if (e.target === e.currentTarget) closeSubmitSw()
+  })
+
+  async function submitSoftware() {
+    const name = document.getElementById('swName').value.trim()
+    const category = document.getElementById('swCategory').value
+    const description = document.getElementById('swDesc').value.trim()
+    const icon = document.getElementById('swIcon').value.trim()
+    const officialUrl = document.getElementById('swOfficialUrl').value.trim()
+    const officialDownload = document.getElementById('swOfficialDownload').value.trim()
+    const password = document.getElementById('swPassword').value.trim()
+
+    if (!name || !category || !officialUrl || !officialDownload) {
+      return alert('请填写：软件名称、分类、官网地址、官方下载地址')
+    }
+
+    const res = await fetch('/api/submit/software', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ name, category, description, icon, officialUrl, officialDownload, password })
+    })
+    if (!res.ok) { const err = await res.json(); return alert(err.error || '提交失败') }
+    const result = await res.json()
+
+    if (result.isAdmin) {
+      // 直接刷新显示
+      const r2 = await fetch('/api/data')
+      appData = await r2.json()
+      renderSidebar()
+      renderMain()
+      alert('✅ 软件已直接发布！')
+    } else {
+      alert('✅ 已提交，等待管理员审核后上线')
+    }
+    closeSubmitSw()
+  }
+
+  // ── 提交新分类 ──
+  function openSubmitCat() {
+    closeSubmitChoice()
+    ;['catName','catIcon','catPassword'].forEach(id => { document.getElementById(id).value = '' })
+    document.getElementById('submitCatOverlay').classList.add('open')
+  }
+  function closeSubmitCat() {
+    document.getElementById('submitCatOverlay').classList.remove('open')
+  }
+  document.getElementById('submitCatOverlay').addEventListener('click', e => {
+    if (e.target === e.currentTarget) closeSubmitCat()
+  })
+
+  async function submitCategory() {
+    const name = document.getElementById('catName').value.trim()
+    const icon = document.getElementById('catIcon').value.trim()
+    const password = document.getElementById('catPassword').value.trim()
+    if (!name) return alert('请填写分类名称')
+
+    const res = await fetch('/api/submit/category', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ name, icon: icon || '📁', password })
+    })
+    if (!res.ok) { const err = await res.json(); return alert(err.error || '提交失败') }
+    const result = await res.json()
+
+    if (result.isAdmin) {
+      const r2 = await fetch('/api/data')
+      appData = await r2.json()
+      renderSidebar()
+      alert('✅ 分类已直接发布！')
+    } else {
+      alert('✅ 已提交，等待管理员审核后上线')
+    }
+    closeSubmitCat()
+  }
+
+  // ── URL ?q= 参数支持（配合 JSON-LD SearchAction）──
+  const urlParams = new URLSearchParams(window.location.search)
+  const urlQuery = urlParams.get('q')
+  if (urlQuery) {
+    searchInput.value = urlQuery
+    searchQuery = urlQuery.toLowerCase()
+  }
+
+  init()
+</script>
+
+<!-- 主题切换（独立于业务） -->
+<script>
+  if (localStorage.getItem('theme') === 'dark') {
+    document.documentElement.classList.add('dark');
+  }
+  document.getElementById('themeToggle').addEventListener('click', () => {
+    document.documentElement.classList.toggle('dark');
+    localStorage.setItem('theme', document.documentElement.classList.contains('dark') ? 'dark' : 'light');
+  });
+</script>
+<style>
+  .about-overlay{display:none;position:fixed;inset:0;z-index:300;background:var(--bg);overflow-y:auto;transition:background .35s}
+  .about-overlay.open{display:block}
+  .about-box{max-width:480px;margin:120px auto 60px;padding:0 24px;text-align:center}
+  .about-box h1{font-size:36px;font-weight:700;margin-bottom:8px}
+  .about-box h1 span{color:var(--accent2)}
+  .about-box .who{font-size:13px;color:var(--muted);margin-bottom:40px}
+  .about-box .desc{font-size:14px;color:var(--muted);line-height:2.2;margin-bottom:32px}
+  .about-box .desc strong{color:var(--text)}
+  .about-box .quote{border-left:3px solid var(--accent);padding:12px 16px;background:var(--surface2);border-radius:0 8px 8px 0;margin:24px 0;font-size:13px;color:var(--muted);font-style:italic;text-align:left}
+  .about-close{position:fixed;top:16px;right:20px;z-index:310;width:40px;height:40px;border:1px solid var(--border);border-radius:10px;background:var(--surface);color:var(--muted);cursor:pointer;font-size:18px;display:none;align-items:center;justify-content:center;box-shadow:0 2px 12px var(--shadow);transition:all .15s}
+  .about-close:hover{border-color:var(--accent);color:var(--accent2)}
+  .about-close.show{display:flex}
+  .about-foot{font-size:12px;color:var(--muted);margin-top:48px}
+</style>
+
+<div class="about-overlay" id="aboutOverlay">
+  <div class="about-box">
+    <h1>关于<span>我</span></h1>
+    <div class="who">李苑飞 · 做这个网站的人</div>
+
+    <div class="desc">
+      这个网站的初衷很简单：<br>
+      我受够了那些满屏"高速下载"按钮的流氓站点。<br>
+      点一下，全家桶到手，浏览器变广告牌。<br><br>
+      所以我做了一个<strong>只放官方下载链接</strong>的地方，<br>
+      简单、干净、不废话。<br>
+      破解版链接是用户自己提交的，我负责审核，<br>
+      好用不好用你们自己判断。
+    </div>
+
+    <div class="quote">
+      "如果一个人下载个软件都需要做阅读理解，那这个行业一定有问题。"
+    </div>
+
+    <div class="about-foot">
+      纯公益 · 不盈利 · 不接广告 · 不塞弹窗<br>
+      觉得好用就转发，不需要给我打钱
+    </div>
+  </div>
+</div>
+
+<button class="about-close" id="aboutClose">✕</button>
+
+<script>
+  document.getElementById('aboutBtn').addEventListener('click', () => {
+    document.getElementById('aboutOverlay').classList.add('open');
+    document.getElementById('aboutClose').classList.add('show');
+  });
+  document.getElementById('aboutClose').addEventListener('click', () => {
+    document.getElementById('aboutOverlay').classList.remove('open');
+    document.getElementById('aboutClose').classList.remove('show');
+  });
+</script>
+
+<!-- SEO Footer -->
+<footer role="contentinfo" style="text-align:center;padding:32px 24px 24px;font-size:12px;color:var(--muted);border-top:1px solid var(--border);margin-top:40px;">
+  <p>
+    <strong><a href="/" style="color:var(--accent2);text-decoration:none;">李苑飞官方下载站</a></strong> &nbsp;·&nbsp;
+    专注收录各软件官方下载地址，安全无捆绑 &nbsp;·&nbsp;
+    由 <a href="https://github.com/lyf2nb" target="_blank" rel="noopener noreferrer" style="color:var(--accent2);">李苑飞 (lyf2nb)</a> 维护
+  </p>
+  <p style="margin-top:8px;">
+    浏览器官方下载 · 开发工具官方下载 · 办公软件官方下载 · 设计软件官方下载 · 影音软件官方下载 · 系统工具官方下载
+  </p>
+</footer>
+
+</body>
+</html>

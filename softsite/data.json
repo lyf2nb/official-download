@@ -1,0 +1,2319 @@
+{
+  "categories": [
+    {
+      "id": "browser",
+      "name": "浏览器",
+      "icon": "🌐"
+    },
+    {
+      "id": "dev",
+      "name": "开发工具",
+      "icon": "💻"
+    },
+    {
+      "id": "office",
+      "name": "办公软件",
+      "icon": "📄"
+    },
+    {
+      "id": "media",
+      "name": "影音娱乐",
+      "icon": "🎬"
+    },
+    {
+      "id": "design",
+      "name": "设计创意",
+      "icon": "🎨"
+    },
+    {
+      "id": "utility",
+      "name": "系统工具",
+      "icon": "🔧"
+    },
+    {
+      "id": "communication",
+      "name": "通讯社交",
+      "icon": "💬"
+    },
+    {
+      "id": "security",
+      "name": "安全防护",
+      "icon": "🛡️"
+    }
+  ],
+  "software": [
+    {
+      "id": "chrome",
+      "name": "Google Chrome",
+      "category": "browser",
+      "description": "全球最流行的浏览器，速度快、插件丰富",
+      "icon": "https://www.google.com/chrome/static/images/chrome-logo.svg",
+      "officialUrl": "https://www.google.com/chrome/",
+      "officialDownload": "https://www.google.com/chrome/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "firefox",
+      "name": "Mozilla Firefox",
+      "category": "browser",
+      "description": "开源、注重隐私保护的浏览器",
+      "icon": "https://cdn.simpleicons.org/firefox",
+      "officialUrl": "https://www.mozilla.org/firefox/",
+      "officialDownload": "https://www.mozilla.org/firefox/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "edge",
+      "name": "Microsoft Edge",
+      "category": "browser",
+      "description": "微软基于 Chromium 打造的浏览器，内置 AI Copilot",
+      "icon": "https://cdn.simpleicons.org/microsoftedge",
+      "officialUrl": "https://www.microsoft.com/edge",
+      "officialDownload": "https://www.microsoft.com/edge/download",
+      "crackedLinks": []
+    },
+    {
+      "id": "brave",
+      "name": "Brave",
+      "category": "browser",
+      "description": "主打隐私和广告拦截的浏览器，自带 Tor 模式",
+      "icon": "https://cdn.simpleicons.org/brave",
+      "officialUrl": "https://brave.com/",
+      "officialDownload": "https://brave.com/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "vivaldi",
+      "name": "Vivaldi",
+      "category": "browser",
+      "description": "高度可定制的浏览器，适合高级用户",
+      "icon": "https://cdn.simpleicons.org/vivaldi",
+      "officialUrl": "https://vivaldi.com/",
+      "officialDownload": "https://vivaldi.com/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "opera",
+      "name": "Opera",
+      "category": "browser",
+      "description": "老牌浏览器，内置免费 VPN 和广告拦截",
+      "icon": "https://cdn.simpleicons.org/opera",
+      "officialUrl": "https://www.opera.com/",
+      "officialDownload": "https://www.opera.com/download",
+      "crackedLinks": []
+    },
+    {
+      "id": "opera-gx",
+      "name": "Opera GX",
+      "category": "browser",
+      "description": "专为游戏玩家设计的浏览器，可限制 CPU/RAM 占用",
+      "icon": "https://cdn.simpleicons.org/operagx",
+      "officialUrl": "https://www.opera.com/gx",
+      "officialDownload": "https://www.opera.com/gx/download",
+      "crackedLinks": []
+    },
+    {
+      "id": "arc",
+      "name": "Arc Browser",
+      "category": "browser",
+      "description": "The Browser Company 出品的创新浏览器，Space 分组管理标签",
+      "icon": "https://www.google.com/s2/favicons?domain=arc.net&sz=64",
+      "officialUrl": "https://arc.net/",
+      "officialDownload": "https://arc.net/download",
+      "crackedLinks": []
+    },
+    {
+      "id": "thorium",
+      "name": "Thorium Browser",
+      "category": "browser",
+      "description": "Chromium 分支，针对速度深度优化",
+      "icon": "https://www.google.com/s2/favicons?domain=thorium.rocks&sz=64",
+      "officialUrl": "https://thorium.rocks/",
+      "officialDownload": "https://thorium.rocks/",
+      "crackedLinks": []
+    },
+    {
+      "id": "ungoogled-chromium",
+      "name": "Ungoogled Chromium",
+      "category": "browser",
+      "description": "去除了所有 Google 服务的 Chromium，极致隐私",
+      "icon": "https://www.google.com/s2/favicons?domain=ungoogled-software.github.io&sz=64",
+      "officialUrl": "https://ungoogled-software.github.io/ungoogled-chromium/",
+      "officialDownload": "https://ungoogled-software.github.io/ungoogled-chromium/",
+      "crackedLinks": []
+    },
+    {
+      "id": "waterfox",
+      "name": "Waterfox",
+      "category": "browser",
+      "description": "Firefox 64 位优化分支，速度更快",
+      "icon": "https://www.google.com/s2/favicons?domain=waterfox.net&sz=64",
+      "officialUrl": "https://www.waterfox.net/",
+      "officialDownload": "https://www.waterfox.net/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "librewolf",
+      "name": "LibreWolf",
+      "category": "browser",
+      "description": "Firefox 隐私增强版，默认禁用遥测",
+      "icon": "https://cdn.simpleicons.org/librewolf",
+      "officialUrl": "https://librewolf.net/",
+      "officialDownload": "https://librewolf.net/installation/",
+      "crackedLinks": []
+    },
+    {
+      "id": "pale-moon",
+      "name": "Pale Moon",
+      "category": "browser",
+      "description": "独立开发的 Firefox 分支，保留经典 UI",
+      "icon": "https://www.google.com/s2/favicons?domain=palemoon.org&sz=64",
+      "officialUrl": "https://www.palemoon.org/",
+      "officialDownload": "https://www.palemoon.org/download.shtml",
+      "crackedLinks": []
+    },
+    {
+      "id": "maxthon",
+      "name": "傲游浏览器 Maxthon",
+      "category": "browser",
+      "description": "国产老牌浏览器，支持多核和云端书签",
+      "icon": "https://www.google.com/s2/favicons?domain=maxthon.cn&sz=64",
+      "officialUrl": "https://www.maxthon.cn/",
+      "officialDownload": "https://www.maxthon.cn/",
+      "crackedLinks": []
+    },
+    {
+      "id": "comodo-dragon",
+      "name": "Comodo Dragon",
+      "category": "browser",
+      "description": "Comodo 出品的 Chromium 浏览器，强调安全",
+      "icon": "https://www.google.com/s2/favicons?domain=comodo.com&sz=64",
+      "officialUrl": "https://www.comodo.com/home/browsers-toolbars/browser.php",
+      "officialDownload": "https://www.comodo.com/home/browsers-toolbars/browser.php",
+      "crackedLinks": []
+    },
+    {
+      "id": "samsung-internet",
+      "name": "Samsung Internet",
+      "category": "browser",
+      "description": "三星手机浏览器，Android 平台体验出色",
+      "icon": "https://www.google.com/s2/favicons?domain=samsung.com&sz=64",
+      "officialUrl": "https://www.samsung.com/internet/",
+      "officialDownload": "https://www.samsung.com/internet/",
+      "crackedLinks": []
+    },
+    {
+      "id": "sogou-browser",
+      "name": "搜狗浏览器",
+      "category": "browser",
+      "description": "搜狗旗下浏览器，主打高速浏览和广告过滤",
+      "icon": "https://www.google.com/s2/favicons?domain=ie.sogou.com&sz=64",
+      "officialUrl": "https://ie.sogou.com/",
+      "officialDownload": "https://ie.sogou.com/",
+      "crackedLinks": []
+    },
+    {
+      "id": "qq-browser",
+      "name": "QQ 浏览器",
+      "category": "browser",
+      "description": "腾讯出品浏览器，内置微信文件管理等实用功能",
+      "icon": "https://www.google.com/s2/favicons?domain=browser.qq.com&sz=64",
+      "officialUrl": "https://browser.qq.com/",
+      "officialDownload": "https://browser.qq.com/",
+      "crackedLinks": []
+    },
+    {
+      "id": "2345-browser",
+      "name": "2345 浏览器",
+      "category": "browser",
+      "description": "2345 系列浏览器，以加速和导航为主打",
+      "icon": "https://www.google.com/s2/favicons?domain=2345.com&sz=64",
+      "officialUrl": "https://www.2345.com/browser/",
+      "officialDownload": "https://www.2345.com/browser/",
+      "crackedLinks": []
+    },
+    {
+      "id": "cent-browser",
+      "name": "Cent Browser",
+      "category": "browser",
+      "description": "Chromium 增强版，支持内存优化和滚动标签",
+      "icon": "https://www.google.com/s2/favicons?domain=centbrowser.com&sz=64",
+      "officialUrl": "https://www.centbrowser.com/",
+      "officialDownload": "https://www.centbrowser.com/",
+      "crackedLinks": []
+    },
+    {
+      "id": "yandex-browser",
+      "name": "Yandex Browser",
+      "category": "browser",
+      "description": "俄罗斯 Yandex 出品的浏览器，内置 AI 助手",
+      "icon": "https://cdn.simpleicons.org/yandexbrowser",
+      "officialUrl": "https://browser.yandex.com/",
+      "officialDownload": "https://browser.yandex.com/",
+      "crackedLinks": []
+    },
+    {
+      "id": "epic-browser",
+      "name": "Epic Privacy Browser",
+      "category": "browser",
+      "description": "印度出品，主打反追踪隐私保护",
+      "icon": "https://www.google.com/s2/favicons?domain=epicbrowser.com&sz=64",
+      "officialUrl": "https://www.epicbrowser.com/",
+      "officialDownload": "https://www.epicbrowser.com/",
+      "crackedLinks": []
+    },
+    {
+      "id": "midori",
+      "name": "Midori",
+      "category": "browser",
+      "description": "轻量级 WebKit 浏览器，适合低配电脑",
+      "icon": "https://www.google.com/s2/favicons?domain=midori-browser.org&sz=64",
+      "officialUrl": "https://www.midori-browser.org/",
+      "officialDownload": "https://www.midori-browser.org/",
+      "crackedLinks": []
+    },
+    {
+      "id": "falkon",
+      "name": "Falkon",
+      "category": "browser",
+      "description": "KDE 项目出品的轻量浏览器",
+      "icon": "https://www.google.com/s2/favicons?domain=falkon.org&sz=64",
+      "officialUrl": "https://www.falkon.org/",
+      "officialDownload": "https://www.falkon.org/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "seamonkey",
+      "name": "SeaMonkey",
+      "category": "browser",
+      "description": "Mozilla 全家桶（浏览器+邮件+编辑器），经典老牌",
+      "icon": "https://www.google.com/s2/favicons?domain=seamonkey-project.org&sz=64",
+      "officialUrl": "https://www.seamonkey-project.org/",
+      "officialDownload": "https://www.seamonkey-project.org/releases/",
+      "crackedLinks": []
+    },
+    {
+      "id": "avast-secure-browser",
+      "name": "Avast Secure Browser",
+      "category": "browser",
+      "description": "Avast 出品，自动屏蔽广告和追踪",
+      "icon": "https://cdn.simpleicons.org/avast",
+      "officialUrl": "https://www.avast.com/secure-browser",
+      "officialDownload": "https://www.avast.com/secure-browser",
+      "crackedLinks": []
+    },
+    {
+      "id": "ghostery-dawn",
+      "name": "Ghostery Dawn",
+      "category": "browser",
+      "description": "隐私保护组织 Ghostery 出品的浏览器",
+      "icon": "https://cdn.simpleicons.org/ghostery",
+      "officialUrl": "https://www.ghostery.com/dawn/",
+      "officialDownload": "https://www.ghostery.com/dawn/",
+      "crackedLinks": []
+    },
+    {
+      "id": "floorp",
+      "name": "Floorp Browser",
+      "category": "browser",
+      "description": "日本开发的 Firefox 分支，侧边栏功能丰富",
+      "icon": "https://www.google.com/s2/favicons?domain=floorp.app&sz=64",
+      "officialUrl": "https://floorp.app/",
+      "officialDownload": "https://floorp.app/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "kiwi-browser",
+      "name": "Kiwi Browser",
+      "category": "browser",
+      "description": "Android 上的 Chromium 浏览器，支持桌面扩展",
+      "icon": "https://www.google.com/s2/favicons?domain=kiwibrowser.com&sz=64",
+      "officialUrl": "https://kiwibrowser.com/",
+      "officialDownload": "https://kiwibrowser.com/",
+      "crackedLinks": []
+    },
+    {
+      "id": "vscode",
+      "name": "Visual Studio Code",
+      "category": "dev",
+      "description": "微软出品的免费开源代码编辑器，插件生态极强",
+      "icon": "https://cdn.simpleicons.org/visualstudiocode",
+      "officialUrl": "https://code.visualstudio.com/",
+      "officialDownload": "https://code.visualstudio.com/Download",
+      "crackedLinks": []
+    },
+    {
+      "id": "jetbrains",
+      "name": "JetBrains 全家桶",
+      "category": "dev",
+      "description": "顶级 IDE 套件，涵盖 IntelliJ IDEA、PyCharm、WebStorm 等",
+      "icon": "https://cdn.simpleicons.org/jetbrains",
+      "officialUrl": "https://www.jetbrains.com/",
+      "officialDownload": "https://www.jetbrains.com/toolbox-app/",
+      "crackedLinks": [
+        {
+          "id": "jb-crack-1",
+          "label": "JetBrains 2024 激活补丁 by ja-netfilter",
+          "url": "https://3.jetbra.in/",
+          "likes": 312,
+          "dislikes": 18,
+          "submittedAt": "2024-11-01",
+          "approved": true
+        }
+      ]
+    },
+    {
+      "id": "intellij-idea",
+      "name": "IntelliJ IDEA",
+      "category": "dev",
+      "description": "JetBrains 旗舰 Java IDE，智能代码补全和重构",
+      "icon": "https://cdn.simpleicons.org/intellijidea",
+      "officialUrl": "https://www.jetbrains.com/idea/",
+      "officialDownload": "https://www.jetbrains.com/idea/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "pycharm",
+      "name": "PyCharm",
+      "category": "dev",
+      "description": "JetBrains Python IDE，数据科学和 Web 开发首选",
+      "icon": "https://cdn.simpleicons.org/pycharm",
+      "officialUrl": "https://www.jetbrains.com/pycharm/",
+      "officialDownload": "https://www.jetbrains.com/pycharm/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "webstorm",
+      "name": "WebStorm",
+      "category": "dev",
+      "description": "JetBrains 前端 IDE，原生支持 React/Vue/TypeScript",
+      "icon": "https://cdn.simpleicons.org/webstorm",
+      "officialUrl": "https://www.jetbrains.com/webstorm/",
+      "officialDownload": "https://www.jetbrains.com/webstorm/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "goland",
+      "name": "GoLand",
+      "category": "dev",
+      "description": "JetBrains Go 语言 IDE",
+      "icon": "https://cdn.simpleicons.org/goland",
+      "officialUrl": "https://www.jetbrains.com/go/",
+      "officialDownload": "https://www.jetbrains.com/go/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "clion",
+      "name": "CLion",
+      "category": "dev",
+      "description": "JetBrains C/C++ 跨平台 IDE",
+      "icon": "https://cdn.simpleicons.org/clion",
+      "officialUrl": "https://www.jetbrains.com/clion/",
+      "officialDownload": "https://www.jetbrains.com/clion/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "rider",
+      "name": "Rider",
+      "category": "dev",
+      "description": "JetBrains .NET/C# 跨平台 IDE",
+      "icon": "https://cdn.simpleicons.org/rider",
+      "officialUrl": "https://www.jetbrains.com/rider/",
+      "officialDownload": "https://www.jetbrains.com/rider/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "datagrip",
+      "name": "DataGrip",
+      "category": "dev",
+      "description": "JetBrains 数据库管理 IDE，支持多种数据库",
+      "icon": "https://cdn.simpleicons.org/datagrip",
+      "officialUrl": "https://www.jetbrains.com/datagrip/",
+      "officialDownload": "https://www.jetbrains.com/datagrip/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "sublime-text",
+      "name": "Sublime Text",
+      "category": "dev",
+      "description": "极快的轻量级代码编辑器，界面简洁",
+      "icon": "https://cdn.simpleicons.org/sublimetext",
+      "officialUrl": "https://www.sublimetext.com/",
+      "officialDownload": "https://www.sublimetext.com/download",
+      "crackedLinks": []
+    },
+    {
+      "id": "notepadpp",
+      "name": "Notepad++",
+      "category": "dev",
+      "description": "Windows 经典免费文本编辑器，支持语法高亮",
+      "icon": "https://cdn.simpleicons.org/notepadplusplus",
+      "officialUrl": "https://notepad-plus-plus.org/",
+      "officialDownload": "https://notepad-plus-plus.org/downloads/",
+      "crackedLinks": []
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "category": "dev",
+      "description": "基于 VS Code 的 AI 编程编辑器，内置 GPT 支持",
+      "icon": "https://www.google.com/s2/favicons?domain=cursor.com&sz=64",
+      "officialUrl": "https://www.cursor.com/",
+      "officialDownload": "https://www.cursor.com/downloads",
+      "crackedLinks": []
+    },
+    {
+      "id": "windsurf",
+      "name": "Windsurf",
+      "category": "dev",
+      "description": "Codeium 出品的 AI 编辑器，Cascade 智能编程助手",
+      "icon": "https://www.google.com/s2/favicons?domain=codeium.com&sz=64",
+      "officialUrl": "https://codeium.com/windsurf",
+      "officialDownload": "https://codeium.com/windsurf",
+      "crackedLinks": []
+    },
+    {
+      "id": "github-desktop",
+      "name": "GitHub Desktop",
+      "category": "dev",
+      "description": "GitHub 官方 Git 图形客户端，操作直观",
+      "icon": "https://cdn.simpleicons.org/github",
+      "officialUrl": "https://desktop.github.com/",
+      "officialDownload": "https://desktop.github.com/",
+      "crackedLinks": []
+    },
+    {
+      "id": "git",
+      "name": "Git",
+      "category": "dev",
+      "description": "分布式版本控制系统，开发者必备",
+      "icon": "https://cdn.simpleicons.org/git",
+      "officialUrl": "https://git-scm.com/",
+      "officialDownload": "https://git-scm.com/downloads",
+      "crackedLinks": []
+    },
+    {
+      "id": "docker-desktop",
+      "name": "Docker Desktop",
+      "category": "dev",
+      "description": "容器化开发环境，一键部署和管理容器",
+      "icon": "https://cdn.simpleicons.org/docker",
+      "officialUrl": "https://www.docker.com/products/docker-desktop/",
+      "officialDownload": "https://www.docker.com/products/docker-desktop/",
+      "crackedLinks": []
+    },
+    {
+      "id": "postman",
+      "name": "Postman",
+      "category": "dev",
+      "description": "最流行的 API 调试和测试工具",
+      "icon": "https://cdn.simpleicons.org/postman",
+      "officialUrl": "https://www.postman.com/",
+      "officialDownload": "https://www.postman.com/downloads/",
+      "crackedLinks": []
+    },
+    {
+      "id": "navicat",
+      "name": "Navicat Premium",
+      "category": "dev",
+      "description": "强大的数据库可视化管理工具，支持 MySQL/PG/MongoDB 等",
+      "icon": "https://www.google.com/s2/favicons?domain=navicat.com&sz=64",
+      "officialUrl": "https://www.navicat.com/",
+      "officialDownload": "https://www.navicat.com/download",
+      "crackedLinks": []
+    },
+    {
+      "id": "dbeaver",
+      "name": "DBeaver",
+      "category": "dev",
+      "description": "免费开源的跨平台数据库管理工具",
+      "icon": "https://cdn.simpleicons.org/dbeaver",
+      "officialUrl": "https://dbeaver.io/",
+      "officialDownload": "https://dbeaver.io/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "xshell",
+      "name": "Xshell",
+      "category": "dev",
+      "description": "强大的 SSH 终端工具，支持多标签和脚本",
+      "icon": "https://www.google.com/s2/favicons?domain=xshell.com&sz=64",
+      "officialUrl": "https://www.xshell.com/",
+      "officialDownload": "https://www.xshell.com/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "mobaxterm",
+      "name": "MobaXterm",
+      "category": "dev",
+      "description": "集 SSH/X11/SFTP 于一体的远程工具箱",
+      "icon": "https://www.google.com/s2/favicons?domain=mobaxterm.mobatek.net&sz=64",
+      "officialUrl": "https://mobaxterm.mobatek.net/",
+      "officialDownload": "https://mobaxterm.mobatek.net/download.html",
+      "crackedLinks": []
+    },
+    {
+      "id": "filezilla",
+      "name": "FileZilla",
+      "category": "dev",
+      "description": "免费开源的 FTP/SFTP 客户端",
+      "icon": "https://cdn.simpleicons.org/filezilla",
+      "officialUrl": "https://filezilla-project.org/",
+      "officialDownload": "https://filezilla-project.org/download.php",
+      "crackedLinks": []
+    },
+    {
+      "id": "typora",
+      "name": "Typora",
+      "category": "dev",
+      "description": "极简 Markdown 编辑器，所见即所得",
+      "icon": "https://www.google.com/s2/favicons?domain=typora.io&sz=64",
+      "officialUrl": "https://typora.io/",
+      "officialDownload": "https://typora.io/#download",
+      "crackedLinks": []
+    },
+    {
+      "id": "obsidian",
+      "name": "Obsidian",
+      "category": "dev",
+      "description": "本地知识管理工具，Markdown 双链笔记",
+      "icon": "https://cdn.simpleicons.org/obsidian",
+      "officialUrl": "https://obsidian.md/",
+      "officialDownload": "https://obsidian.md/download",
+      "crackedLinks": []
+    },
+    {
+      "id": "beyond-compare",
+      "name": "Beyond Compare",
+      "category": "dev",
+      "description": "文件和文件夹对比合并工具",
+      "icon": "https://www.google.com/s2/favicons?domain=scootersoftware.com&sz=64",
+      "officialUrl": "https://www.scootersoftware.com/",
+      "officialDownload": "https://www.scootersoftware.com/download.php",
+      "crackedLinks": []
+    },
+    {
+      "id": "sourcetree",
+      "name": "SourceTree",
+      "category": "dev",
+      "description": "Atlassian 出品的 Git 可视化客户端",
+      "icon": "https://www.google.com/s2/favicons?domain=sourcetreeapp.com&sz=64",
+      "officialUrl": "https://www.sourcetreeapp.com/",
+      "officialDownload": "https://www.sourcetreeapp.com/download",
+      "crackedLinks": []
+    },
+    {
+      "id": "heidisql",
+      "name": "HeidiSQL",
+      "category": "dev",
+      "description": "轻量级 MySQL/MariaDB/PostgreSQL 图形管理工具",
+      "icon": "https://www.google.com/s2/favicons?domain=heidisql.com&sz=64",
+      "officialUrl": "https://www.heidisql.com/",
+      "officialDownload": "https://www.heidisql.com/download.php",
+      "crackedLinks": []
+    },
+    {
+      "id": "winmerge",
+      "name": "WinMerge",
+      "category": "dev",
+      "description": "开源的 Windows 文件和文件夹对比工具",
+      "icon": "https://www.google.com/s2/favicons?domain=winmerge.org&sz=64",
+      "officialUrl": "https://winmerge.org/",
+      "officialDownload": "https://winmerge.org/downloads/",
+      "crackedLinks": []
+    },
+    {
+      "id": "redisinsight",
+      "name": "RedisInsight",
+      "category": "dev",
+      "description": "Redis 官方可视化管理工具",
+      "icon": "https://www.google.com/s2/favicons?domain=redis.io&sz=64",
+      "officialUrl": "https://redis.io/insight/",
+      "officialDownload": "https://redis.io/insight/",
+      "crackedLinks": []
+    },
+    {
+      "id": "apifox",
+      "name": "Apifox",
+      "category": "dev",
+      "description": "一体化 API 协作平台，集文档/调试/Mock/测试于一身",
+      "icon": "https://www.google.com/s2/favicons?domain=apifox.com&sz=64",
+      "officialUrl": "https://apifox.com/",
+      "officialDownload": "https://apifox.com/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "office365",
+      "name": "Microsoft Office 365",
+      "category": "office",
+      "description": "Word、Excel、PowerPoint 全家桶，办公必备",
+      "icon": "https://cdn.simpleicons.org/microsoftoffice",
+      "officialUrl": "https://www.microsoft.com/microsoft-365",
+      "officialDownload": "https://www.microsoft.com/microsoft-365/download-office",
+      "crackedLinks": [
+        {
+          "id": "office-crack-1",
+          "label": "Office 365 KMS 激活工具 MAS",
+          "url": "https://massgrave.dev/",
+          "likes": 876,
+          "dislikes": 42,
+          "submittedAt": "2024-10-15",
+          "approved": true
+        }
+      ]
+    },
+    {
+      "id": "wps",
+      "name": "WPS Office",
+      "category": "office",
+      "description": "国产办公套件，兼容微软格式，免费版功能足够日常使用",
+      "icon": "https://www.google.com/s2/favicons?domain=wps.cn&sz=64",
+      "officialUrl": "https://www.wps.cn/",
+      "officialDownload": "https://www.wps.cn/product/wpswin",
+      "crackedLinks": []
+    },
+    {
+      "id": "libreoffice",
+      "name": "LibreOffice",
+      "category": "office",
+      "description": "免费开源的办公套件，完全兼容 Office 格式",
+      "icon": "https://cdn.simpleicons.org/libreoffice",
+      "officialUrl": "https://www.libreoffice.org/",
+      "officialDownload": "https://www.libreoffice.org/download/download-libreoffice/",
+      "crackedLinks": []
+    },
+    {
+      "id": "onlyoffice",
+      "name": "ONLYOFFICE",
+      "category": "office",
+      "description": "开源在线办公套件，界面接近微软 Office",
+      "icon": "https://www.google.com/s2/favicons?domain=onlyoffice.com&sz=64",
+      "officialUrl": "https://www.onlyoffice.com/",
+      "officialDownload": "https://www.onlyoffice.com/download-desktop.aspx",
+      "crackedLinks": []
+    },
+    {
+      "id": "notion",
+      "name": "Notion",
+      "category": "office",
+      "description": "All-in-one 工作空间，笔记、任务、文档、知识库",
+      "icon": "https://cdn.simpleicons.org/notion",
+      "officialUrl": "https://www.notion.so/",
+      "officialDownload": "https://www.notion.so/desktop",
+      "crackedLinks": []
+    },
+    {
+      "id": "xmind",
+      "name": "XMind",
+      "category": "office",
+      "description": "全功能思维导图软件，界面精美",
+      "icon": "https://cdn.simpleicons.org/xmind",
+      "officialUrl": "https://xmind.app/",
+      "officialDownload": "https://xmind.app/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "mindmaster",
+      "name": "亿图脑图 MindMaster",
+      "category": "office",
+      "description": "国产思维导图工具，模板丰富",
+      "icon": "https://www.google.com/s2/favicons?domain=edrawsoft.cn&sz=64",
+      "officialUrl": "https://www.edrawsoft.cn/mindmaster/",
+      "officialDownload": "https://www.edrawsoft.cn/mindmaster/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "foxit-pdf",
+      "name": "Foxit PDF",
+      "category": "office",
+      "description": "专业的 PDF 编辑阅读工具，轻量快速",
+      "icon": "https://www.google.com/s2/favicons?domain=foxit.com&sz=64",
+      "officialUrl": "https://www.foxit.com/",
+      "officialDownload": "https://www.foxit.com/pdf-editor/",
+      "crackedLinks": []
+    },
+    {
+      "id": "adobe-acrobat",
+      "name": "Adobe Acrobat Pro",
+      "category": "office",
+      "description": "PDF 行业标准工具，编辑/转换/签注功能全面",
+      "icon": "https://cdn.simpleicons.org/adobeacrobatreader",
+      "officialUrl": "https://www.adobe.com/acrobat.html",
+      "officialDownload": "https://www.adobe.com/acrobat/download.html",
+      "crackedLinks": []
+    },
+    {
+      "id": "pdfelement",
+      "name": "Wondershare PDFelement",
+      "category": "office",
+      "description": "万兴科技出品的 PDF 编辑工具，价格实惠",
+      "icon": "https://www.google.com/s2/favicons?domain=wondershare.com&sz=64",
+      "officialUrl": "https://pdf.wondershare.com/",
+      "officialDownload": "https://pdf.wondershare.com/download.html",
+      "crackedLinks": []
+    },
+    {
+      "id": "texstudio",
+      "name": "TeXStudio",
+      "category": "office",
+      "description": "跨平台 LaTeX 集成编辑器，学术论文排版首选",
+      "icon": "https://www.google.com/s2/favicons?domain=texstudio.org&sz=64",
+      "officialUrl": "https://www.texstudio.org/",
+      "officialDownload": "https://www.texstudio.org/#download",
+      "crackedLinks": []
+    },
+    {
+      "id": "mathtype",
+      "name": "MathType",
+      "category": "office",
+      "description": "专业公式编辑器，与 Office 无缝集成",
+      "icon": "https://www.google.com/s2/favicons?domain=mathtype.com&sz=64",
+      "officialUrl": "https://www.mathtype.com/",
+      "officialDownload": "https://www.mathtype.com/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "edrawmax",
+      "name": "亿图图示 EdrawMax",
+      "category": "office",
+      "description": "全类型图表绘制工具，流程图/思维导图/网络拓扑等",
+      "icon": "https://www.google.com/s2/favicons?domain=edrawsoft.cn&sz=64",
+      "officialUrl": "https://www.edrawsoft.cn/edrawmax/",
+      "officialDownload": "https://www.edrawsoft.cn/edrawmax/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "freeoffice",
+      "name": "SoftMaker FreeOffice",
+      "category": "office",
+      "description": "德国出品的免费办公套件，轻量高效",
+      "icon": "https://www.google.com/s2/favicons?domain=freeoffice.com&sz=64",
+      "officialUrl": "https://www.freeoffice.com/",
+      "officialDownload": "https://www.freeoffice.com/download",
+      "crackedLinks": []
+    },
+    {
+      "id": "kingsoft-doc",
+      "name": "金山文档",
+      "category": "office",
+      "description": "金山在线协作文档，多人实时编辑",
+      "icon": "https://www.google.com/s2/favicons?domain=kdocs.cn&sz=64",
+      "officialUrl": "https://www.kdocs.cn/",
+      "officialDownload": "https://www.kdocs.cn/downloads",
+      "crackedLinks": []
+    },
+    {
+      "id": "tencent-doc",
+      "name": "腾讯文档",
+      "category": "office",
+      "description": "腾讯在线协作文档，支持 Office 和 PDF",
+      "icon": "https://www.google.com/s2/favicons?domain=docs.qq.com&sz=64",
+      "officialUrl": "https://docs.qq.com/",
+      "officialDownload": "https://docs.qq.com/",
+      "crackedLinks": []
+    },
+    {
+      "id": "石墨文档",
+      "name": "石墨文档",
+      "category": "office",
+      "description": "云端协作文档和表格，适合企业团队",
+      "icon": "https://www.google.com/s2/favicons?domain=shimo.im&sz=64",
+      "officialUrl": "https://shimo.im/",
+      "officialDownload": "https://shimo.im/desktop",
+      "crackedLinks": []
+    },
+    {
+      "id": "语雀",
+      "name": "语雀",
+      "category": "office",
+      "description": "阿里出品的知识管理与协作平台",
+      "icon": "https://www.google.com/s2/favicons?domain=yuque.com&sz=64",
+      "officialUrl": "https://www.yuque.com/",
+      "officialDownload": "https://www.yuque.com/download",
+      "crackedLinks": []
+    },
+    {
+      "id": "飞书文档",
+      "name": "飞书文档",
+      "category": "office",
+      "description": "字节跳动出品，集文档/表格/多维表格于一体",
+      "icon": "https://www.google.com/s2/favicons?domain=feishu.cn&sz=64",
+      "officialUrl": "https://www.feishu.cn/",
+      "officialDownload": "https://www.feishu.cn/download",
+      "crackedLinks": []
+    },
+    {
+      "id": "cs扫描全能王",
+      "name": "扫描全能王 CamScanner",
+      "category": "office",
+      "description": "手机扫描文档为高清 PDF",
+      "icon": "https://www.google.com/s2/favicons?domain=camscanner.com&sz=64",
+      "officialUrl": "https://www.camscanner.com/",
+      "officialDownload": "https://www.camscanner.com/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "abbyy-finereader",
+      "name": "ABBYY FineReader",
+      "category": "office",
+      "description": "专业 OCR 文字识别软件，PDF 转 Word 神器",
+      "icon": "https://www.google.com/s2/favicons?domain=abbyy.com&sz=64",
+      "officialUrl": "https://www.abbyy.com/finereader/",
+      "officialDownload": "https://www.abbyy.com/finereader/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "marktext",
+      "name": "MarkText",
+      "category": "office",
+      "description": "免费开源的 Markdown 编辑器，支持各种语法",
+      "icon": "https://www.google.com/s2/favicons?domain=marktext.app&sz=64",
+      "officialUrl": "https://github.com/marktext/marktext",
+      "officialDownload": "https://github.com/marktext/marktext/releases",
+      "crackedLinks": []
+    },
+    {
+      "id": "drawio",
+      "name": "draw.io (diagrams.net)",
+      "category": "office",
+      "description": "免费开源的在线绘图工具，流程图/架构图首选",
+      "icon": "https://www.google.com/s2/favicons?domain=app.diagrams.net&sz=64",
+      "officialUrl": "https://app.diagrams.net/",
+      "officialDownload": "https://github.com/jgraph/drawio-desktop/releases",
+      "crackedLinks": []
+    },
+    {
+      "id": "snipaste",
+      "name": "Snipaste",
+      "category": "office",
+      "description": "截图+贴图工具，截完直接贴在桌面",
+      "icon": "https://www.google.com/s2/favicons?domain=snipaste.com&sz=64",
+      "officialUrl": "https://www.snipaste.com/",
+      "officialDownload": "https://www.snipaste.com/",
+      "crackedLinks": []
+    },
+    {
+      "id": "sharex",
+      "name": "ShareX",
+      "category": "office",
+      "description": "开源截图录屏工具，支持上传到图床",
+      "icon": "https://cdn.simpleicons.org/sharex",
+      "officialUrl": "https://getsharex.com/",
+      "officialDownload": "https://getsharex.com/",
+      "crackedLinks": []
+    },
+    {
+      "id": "potplayer",
+      "name": "PotPlayer",
+      "category": "media",
+      "description": "功能强大的本地视频播放器，支持几乎所有格式",
+      "icon": "https://www.google.com/s2/favicons?domain=potplayer.daum.net&sz=64",
+      "officialUrl": "https://potplayer.daum.net/",
+      "officialDownload": "https://potplayer.daum.net/?lang=zh_CN",
+      "crackedLinks": []
+    },
+    {
+      "id": "vlc",
+      "name": "VLC Media Player",
+      "category": "media",
+      "description": "开源免费的跨平台媒体播放器，无需安装解码器",
+      "icon": "https://cdn.simpleicons.org/vlcmediaplayer",
+      "officialUrl": "https://www.videolan.org/vlc/",
+      "officialDownload": "https://www.videolan.org/vlc/#download",
+      "crackedLinks": []
+    },
+    {
+      "id": "iina",
+      "name": "IINA",
+      "category": "media",
+      "description": "macOS 上最优雅的视频播放器，基于 mpv",
+      "icon": "https://www.google.com/s2/favicons?domain=iina.io&sz=64",
+      "officialUrl": "https://iina.io/",
+      "officialDownload": "https://iina.io/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "mpv",
+      "name": "mpv",
+      "category": "media",
+      "description": "极简的命令行视频播放器，画质发烧友首选",
+      "icon": "https://www.google.com/s2/favicons?domain=mpv.io&sz=64",
+      "officialUrl": "https://mpv.io/",
+      "officialDownload": "https://mpv.io/installation/",
+      "crackedLinks": []
+    },
+    {
+      "id": "mpc-hc",
+      "name": "MPC-HC",
+      "category": "media",
+      "description": "经典轻量级播放器，低占用高画质",
+      "icon": "https://www.google.com/s2/favicons?domain=mpc-hc.org&sz=64",
+      "officialUrl": "https://mpc-hc.org/",
+      "officialDownload": "https://mpc-hc.org/downloads/",
+      "crackedLinks": []
+    },
+    {
+      "id": "kmplayer",
+      "name": "KMPlayer",
+      "category": "media",
+      "description": "韩国出品的高清播放器，3D/4K 支持",
+      "icon": "https://www.google.com/s2/favicons?domain=kmplayer.com&sz=64",
+      "officialUrl": "https://www.kmplayer.com/",
+      "officialDownload": "https://www.kmplayer.com/home/",
+      "crackedLinks": []
+    },
+    {
+      "id": "foobar2000",
+      "name": "foobar2000",
+      "category": "media",
+      "description": "Windows 上最知名的极简音频播放器",
+      "icon": "https://www.google.com/s2/favicons?domain=foobar2000.org&sz=64",
+      "officialUrl": "https://www.foobar2000.org/",
+      "officialDownload": "https://www.foobar2000.org/download",
+      "crackedLinks": []
+    },
+    {
+      "id": "aimp",
+      "name": "AIMP",
+      "category": "media",
+      "description": "俄罗斯出品的精美音频播放器，支持多种格式",
+      "icon": "https://www.google.com/s2/favicons?domain=aimp.ru&sz=64",
+      "officialUrl": "https://www.aimp.ru/",
+      "officialDownload": "https://www.aimp.ru/?do=download",
+      "crackedLinks": []
+    },
+    {
+      "id": "musicbee",
+      "name": "MusicBee",
+      "category": "media",
+      "description": "功能全面的音乐管理和播放软件",
+      "icon": "https://www.google.com/s2/favicons?domain=getmusicbee.com&sz=64",
+      "officialUrl": "https://getmusicbee.com/",
+      "officialDownload": "https://getmusicbee.com/",
+      "crackedLinks": []
+    },
+    {
+      "id": "qqmusic",
+      "name": "QQ音乐",
+      "category": "media",
+      "description": "腾讯旗下在线音乐平台，曲库丰富",
+      "icon": "https://www.google.com/s2/favicons?domain=y.qq.com&sz=64",
+      "officialUrl": "https://y.qq.com/",
+      "officialDownload": "https://y.qq.com/download/download.html",
+      "crackedLinks": []
+    },
+    {
+      "id": "netease-cloud-music",
+      "name": "网易云音乐",
+      "category": "media",
+      "description": "社区氛围最好的音乐平台，歌单推荐出色",
+      "icon": "https://www.google.com/s2/favicons?domain=music.163.com&sz=64",
+      "officialUrl": "https://music.163.com/",
+      "officialDownload": "https://music.163.com/#/download",
+      "crackedLinks": []
+    },
+    {
+      "id": "spotify",
+      "name": "Spotify",
+      "category": "media",
+      "description": "全球最大的在线音乐流媒体平台",
+      "icon": "https://cdn.simpleicons.org/spotify",
+      "officialUrl": "https://www.spotify.com/",
+      "officialDownload": "https://www.spotify.com/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "apple-music",
+      "name": "Apple Music",
+      "category": "media",
+      "description": "苹果旗下无损音质音乐流媒体",
+      "icon": "https://cdn.simpleicons.org/applemusic",
+      "officialUrl": "https://music.apple.com/",
+      "officialDownload": "https://www.apple.com/apple-music/",
+      "crackedLinks": []
+    },
+    {
+      "id": "tidal",
+      "name": "Tidal",
+      "category": "media",
+      "description": "主打 HiFi 无损音质的音乐流媒体",
+      "icon": "https://cdn.simpleicons.org/tidal",
+      "officialUrl": "https://tidal.com/",
+      "officialDownload": "https://tidal.com/download",
+      "crackedLinks": []
+    },
+    {
+      "id": "audacity",
+      "name": "Audacity",
+      "category": "media",
+      "description": "免费开源的音频录制和编辑软件",
+      "icon": "https://cdn.simpleicons.org/audacity",
+      "officialUrl": "https://www.audacityteam.org/",
+      "officialDownload": "https://www.audacityteam.org/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "obs-studio",
+      "name": "OBS Studio",
+      "category": "media",
+      "description": "免费开源的直播和录屏软件",
+      "icon": "https://cdn.simpleicons.org/obsstudio",
+      "officialUrl": "https://obsproject.com/",
+      "officialDownload": "https://obsproject.com/download",
+      "crackedLinks": []
+    },
+    {
+      "id": "streamlabs",
+      "name": "Streamlabs",
+      "category": "media",
+      "description": "OBS 增强版直播工具，自带弹窗和打赏功能",
+      "icon": "https://www.google.com/s2/favicons?domain=streamlabs.com&sz=64",
+      "officialUrl": "https://streamlabs.com/",
+      "officialDownload": "https://streamlabs.com/download",
+      "crackedLinks": []
+    },
+    {
+      "id": "davinci-resolve",
+      "name": "DaVinci Resolve",
+      "category": "media",
+      "description": "好莱坞级免费视频剪辑调色软件",
+      "icon": "https://www.google.com/s2/favicons?domain=blackmagicdesign.com&sz=64",
+      "officialUrl": "https://www.blackmagicdesign.com/products/davinciresolve",
+      "officialDownload": "https://www.blackmagicdesign.com/products/davinciresolve",
+      "crackedLinks": []
+    },
+    {
+      "id": "premiere-pro",
+      "name": "Adobe Premiere Pro",
+      "category": "media",
+      "description": "专业视频编辑行业标准软件",
+      "icon": "https://cdn.simpleicons.org/adobepremierepro",
+      "officialUrl": "https://www.adobe.com/products/premiere.html",
+      "officialDownload": "https://www.adobe.com/products/premiere.html",
+      "crackedLinks": []
+    },
+    {
+      "id": "after-effects",
+      "name": "Adobe After Effects",
+      "category": "media",
+      "description": "专业动效和视频特效制作软件",
+      "icon": "https://cdn.simpleicons.org/adobeaftereffects",
+      "officialUrl": "https://www.adobe.com/products/aftereffects.html",
+      "officialDownload": "https://www.adobe.com/products/aftereffects.html",
+      "crackedLinks": []
+    },
+    {
+      "id": "shotcut",
+      "name": "Shotcut",
+      "category": "media",
+      "description": "免费开源跨平台视频编辑器",
+      "icon": "https://cdn.simpleicons.org/shotcut",
+      "officialUrl": "https://shotcut.org/",
+      "officialDownload": "https://shotcut.org/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "handbrake",
+      "name": "HandBrake",
+      "category": "media",
+      "description": "免费开源的视频转码工具",
+      "icon": "https://cdn.simpleicons.org/handbrake",
+      "officialUrl": "https://handbrake.fr/",
+      "officialDownload": "https://handbrake.fr/downloads.php",
+      "crackedLinks": []
+    },
+    {
+      "id": "filmora",
+      "name": "万兴喵影 Filmora",
+      "category": "media",
+      "description": "易上手的视频剪辑软件，适合新手",
+      "icon": "https://www.google.com/s2/favicons?domain=filmora.wondershare.com&sz=64",
+      "officialUrl": "https://filmora.wondershare.com/",
+      "officialDownload": "https://filmora.wondershare.com/download.html",
+      "crackedLinks": []
+    },
+    {
+      "id": "kugou",
+      "name": "酷狗音乐",
+      "category": "media",
+      "description": "老牌在线音乐平台，K歌和直播功能丰富",
+      "icon": "https://www.google.com/s2/favicons?domain=kugou.com&sz=64",
+      "officialUrl": "https://www.kugou.com/",
+      "officialDownload": "https://www.kugou.com/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "kuwo",
+      "name": "酷我音乐",
+      "category": "media",
+      "description": "在线音乐平台，HiFi 无损资源丰富",
+      "icon": "https://www.google.com/s2/favicons?domain=kuwo.cn&sz=64",
+      "officialUrl": "https://www.kuwo.cn/",
+      "officialDownload": "https://www.kuwo.cn/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "cinema4d",
+      "name": "Cinema 4D",
+      "category": "media",
+      "description": "专业 3D 动画和渲染软件",
+      "icon": "https://www.google.com/s2/favicons?domain=maxon.net&sz=64",
+      "officialUrl": "https://www.maxon.net/en/cinema-4d",
+      "officialDownload": "https://www.maxon.net/en/cinema-4d",
+      "crackedLinks": []
+    },
+    {
+      "id": "kodi",
+      "name": "Kodi",
+      "category": "media",
+      "description": "开源家庭影院软件，媒体中心管理利器",
+      "icon": "https://www.google.com/s2/favicons?domain=kodi.tv&sz=64",
+      "officialUrl": "https://kodi.tv/",
+      "officialDownload": "https://kodi.tv/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "photoshop",
+      "name": "Adobe Photoshop",
+      "category": "design",
+      "description": "行业标准图像处理软件",
+      "icon": "https://cdn.simpleicons.org/adobephotoshop",
+      "officialUrl": "https://www.adobe.com/products/photoshop.html",
+      "officialDownload": "https://creativecloud.adobe.com/apps/download/photoshop",
+      "crackedLinks": [
+        {
+          "id": "ps-crack-1",
+          "label": "PS 2024 破解版 GenP 工具",
+          "url": "https://www.reddit.com/r/GenP",
+          "likes": 543,
+          "dislikes": 67,
+          "submittedAt": "2024-09-20",
+          "approved": true
+        }
+      ]
+    },
+    {
+      "id": "figma",
+      "name": "Figma",
+      "category": "design",
+      "description": "基于浏览器的 UI 设计工具，协作能力强",
+      "icon": "https://cdn.simpleicons.org/figma",
+      "officialUrl": "https://www.figma.com/",
+      "officialDownload": "https://www.figma.com/downloads/",
+      "crackedLinks": []
+    },
+    {
+      "id": "illustrator",
+      "name": "Adobe Illustrator",
+      "category": "design",
+      "description": "矢量图形设计行业标准软件",
+      "icon": "https://cdn.simpleicons.org/adobeillustrator",
+      "officialUrl": "https://www.adobe.com/products/illustrator.html",
+      "officialDownload": "https://www.adobe.com/products/illustrator.html",
+      "crackedLinks": []
+    },
+    {
+      "id": "indesign",
+      "name": "Adobe InDesign",
+      "category": "design",
+      "description": "专业排版设计软件，杂志/书籍/海报排版首选",
+      "icon": "https://cdn.simpleicons.org/adobeindesign",
+      "officialUrl": "https://www.adobe.com/products/indesign.html",
+      "officialDownload": "https://www.adobe.com/products/indesign.html",
+      "crackedLinks": []
+    },
+    {
+      "id": "lightroom",
+      "name": "Adobe Lightroom",
+      "category": "design",
+      "description": "专业照片后期处理和管理工作流",
+      "icon": "https://cdn.simpleicons.org/adobelightroom",
+      "officialUrl": "https://www.adobe.com/products/photoshop-lightroom.html",
+      "officialDownload": "https://www.adobe.com/products/photoshop-lightroom.html",
+      "crackedLinks": []
+    },
+    {
+      "id": "adobe-xd",
+      "name": "Adobe XD",
+      "category": "design",
+      "description": "Adobe 出品的 UI/UX 设计工具",
+      "icon": "https://cdn.simpleicons.org/adobexd",
+      "officialUrl": "https://www.adobe.com/products/xd.html",
+      "officialDownload": "https://www.adobe.com/products/xd.html",
+      "crackedLinks": []
+    },
+    {
+      "id": "sketch",
+      "name": "Sketch",
+      "category": "design",
+      "description": "macOS 独占的 UI 设计工具，设计师最爱",
+      "icon": "https://cdn.simpleicons.org/sketch",
+      "officialUrl": "https://www.sketch.com/",
+      "officialDownload": "https://www.sketch.com/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "affinity-designer",
+      "name": "Affinity Designer",
+      "category": "design",
+      "description": "买断制矢量设计软件，PS/AI 的平替",
+      "icon": "https://cdn.simpleicons.org/affinitydesigner",
+      "officialUrl": "https://affinity.serif.com/designer/",
+      "officialDownload": "https://affinity.serif.com/designer/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "affinity-photo",
+      "name": "Affinity Photo",
+      "category": "design",
+      "description": "买断制修图软件，Photoshop 平替",
+      "icon": "https://cdn.simpleicons.org/affinityphoto",
+      "officialUrl": "https://affinity.serif.com/photo/",
+      "officialDownload": "https://affinity.serif.com/photo/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "affinity-publisher",
+      "name": "Affinity Publisher",
+      "category": "design",
+      "description": "买断制排版软件，InDesign 平替",
+      "icon": "https://cdn.simpleicons.org/affinitypublisher",
+      "officialUrl": "https://affinity.serif.com/publisher/",
+      "officialDownload": "https://affinity.serif.com/publisher/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "coreldraw",
+      "name": "CorelDRAW",
+      "category": "design",
+      "description": "加拿大经典矢量绘图软件，印刷设计领域首选",
+      "icon": "https://cdn.simpleicons.org/coreldraw",
+      "officialUrl": "https://www.coreldraw.com/",
+      "officialDownload": "https://www.coreldraw.com/",
+      "crackedLinks": []
+    },
+    {
+      "id": "blender",
+      "name": "Blender",
+      "category": "design",
+      "description": "免费开源的 3D 建模/动画/渲染全能软件",
+      "icon": "https://cdn.simpleicons.org/blender",
+      "officialUrl": "https://www.blender.org/",
+      "officialDownload": "https://www.blender.org/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "maya",
+      "name": "Autodesk Maya",
+      "category": "design",
+      "description": "3D 建模和动画行业标准，影视游戏开发必备",
+      "icon": "https://www.google.com/s2/favicons?domain=autodesk.com&sz=64",
+      "officialUrl": "https://www.autodesk.com/products/maya/overview",
+      "officialDownload": "https://www.autodesk.com/products/maya/overview",
+      "crackedLinks": []
+    },
+    {
+      "id": "3dsmax",
+      "name": "3ds Max",
+      "category": "design",
+      "description": "Autodesk 出品的 3D 建模和渲染软件",
+      "icon": "https://www.google.com/s2/favicons?domain=autodesk.com&sz=64",
+      "officialUrl": "https://www.autodesk.com/products/3ds-max/overview",
+      "officialDownload": "https://www.autodesk.com/products/3ds-max/overview",
+      "crackedLinks": []
+    },
+    {
+      "id": "zbrush",
+      "name": "ZBrush",
+      "category": "design",
+      "description": "数字雕刻行业标准软件，角色建模首选",
+      "icon": "https://www.google.com/s2/favicons?domain=maxon.net&sz=64",
+      "officialUrl": "https://maxon.net/en/zbrush",
+      "officialDownload": "https://maxon.net/en/zbrush",
+      "crackedLinks": []
+    },
+    {
+      "id": "substance-painter",
+      "name": "Substance Painter",
+      "category": "design",
+      "description": "3D 材质贴图绘制行业标准软件",
+      "icon": "https://www.google.com/s2/favicons?domain=adobe.com&sz=64",
+      "officialUrl": "https://www.adobe.com/products/substance3d-painter.html",
+      "officialDownload": "https://www.adobe.com/products/substance3d-painter.html",
+      "crackedLinks": []
+    },
+    {
+      "id": "sai",
+      "name": "PaintTool SAI",
+      "category": "design",
+      "description": "日本出品的轻量级绘画软件，二次元画风首选",
+      "icon": "https://www.google.com/s2/favicons?domain=systemax.jp&sz=64",
+      "officialUrl": "https://www.systemax.jp/en/sai/",
+      "officialDownload": "https://www.systemax.jp/en/sai/",
+      "crackedLinks": []
+    },
+    {
+      "id": "clip-studio-paint",
+      "name": "Clip Studio Paint",
+      "category": "design",
+      "description": "日本专业漫画和插画绘制软件",
+      "icon": "https://www.google.com/s2/favicons?domain=clipstudio.net&sz=64",
+      "officialUrl": "https://www.clipstudio.net/en/",
+      "officialDownload": "https://www.clipstudio.net/en/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "krita",
+      "name": "Krita",
+      "category": "design",
+      "description": "免费开源的数字绘画软件",
+      "icon": "https://cdn.simpleicons.org/krita",
+      "officialUrl": "https://krita.org/",
+      "officialDownload": "https://krita.org/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "gimp",
+      "name": "GIMP",
+      "category": "design",
+      "description": "免费开源的图像编辑器，Photoshop 平替",
+      "icon": "https://cdn.simpleicons.org/gimp",
+      "officialUrl": "https://www.gimp.org/",
+      "officialDownload": "https://www.gimp.org/downloads/",
+      "crackedLinks": []
+    },
+    {
+      "id": "inkscape",
+      "name": "Inkscape",
+      "category": "design",
+      "description": "免费开源的矢量图形编辑器，AI 平替",
+      "icon": "https://cdn.simpleicons.org/inkscape",
+      "officialUrl": "https://inkscape.org/",
+      "officialDownload": "https://inkscape.org/release/",
+      "crackedLinks": []
+    },
+    {
+      "id": "procreate",
+      "name": "Procreate",
+      "category": "design",
+      "description": "iPad 上最强大的绘画 App",
+      "icon": "https://www.google.com/s2/favicons?domain=procreate.com&sz=64",
+      "officialUrl": "https://procreate.com/",
+      "officialDownload": "https://apps.apple.com/app/procreate/id425073498",
+      "crackedLinks": []
+    },
+    {
+      "id": "canva",
+      "name": "Canva",
+      "category": "design",
+      "description": "在线设计平台，模板丰富，小白也能做出精美设计",
+      "icon": "https://cdn.simpleicons.org/canva",
+      "officialUrl": "https://www.canva.com/",
+      "officialDownload": "https://www.canva.com/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "axure",
+      "name": "Axure RP",
+      "category": "design",
+      "description": "专业的原型设计工具，适合产品经理",
+      "icon": "https://www.google.com/s2/favicons?domain=axure.com&sz=64",
+      "officialUrl": "https://www.axure.com/",
+      "officialDownload": "https://www.axure.com/download",
+      "crackedLinks": []
+    },
+    {
+      "id": "principle",
+      "name": "Principle",
+      "category": "design",
+      "description": "macOS 交互动效原型设计工具",
+      "icon": "https://www.google.com/s2/favicons?domain=principleformac.com&sz=64",
+      "officialUrl": "https://principleformac.com/",
+      "officialDownload": "https://principleformac.com/",
+      "crackedLinks": []
+    },
+    {
+      "id": "c4d",
+      "name": "Cinema 4D",
+      "category": "design",
+      "description": "Maxon 出品的 3D 动画渲染软件，MG 动画首选",
+      "icon": "https://www.google.com/s2/favicons?domain=maxon.net&sz=64",
+      "officialUrl": "https://www.maxon.net/en/cinema-4d",
+      "officialDownload": "https://www.maxon.net/en/cinema-4d",
+      "crackedLinks": []
+    },
+    {
+      "id": "7zip",
+      "name": "7-Zip",
+      "category": "utility",
+      "description": "免费开源的高压缩率压缩工具",
+      "icon": "https://www.google.com/s2/favicons?domain=7-zip.org&sz=64",
+      "officialUrl": "https://www.7-zip.org/",
+      "officialDownload": "https://www.7-zip.org/download.html",
+      "crackedLinks": []
+    },
+    {
+      "id": "everything",
+      "name": "Everything",
+      "category": "utility",
+      "description": "Windows 上极速文件搜索工具，秒级检索全盘",
+      "icon": "https://www.google.com/s2/favicons?domain=voidtools.com&sz=64",
+      "officialUrl": "https://www.voidtools.com/",
+      "officialDownload": "https://www.voidtools.com/downloads/",
+      "crackedLinks": []
+    },
+    {
+      "id": "bandizip",
+      "name": "Bandizip",
+      "category": "utility",
+      "description": "界面美观的压缩解压软件，支持多种格式",
+      "icon": "https://www.google.com/s2/favicons?domain=bandisoft.com&sz=64",
+      "officialUrl": "https://www.bandisoft.com/bandizip/",
+      "officialDownload": "https://www.bandisoft.com/bandizip/dl.php?web",
+      "crackedLinks": [
+        {
+          "id": "bz-crack-1",
+          "label": "Bandizip 7 Professional 破解补丁",
+          "url": "https://www.423down.com/9735.html",
+          "likes": 201,
+          "dislikes": 14,
+          "submittedAt": "2024-08-10",
+          "approved": true
+        }
+      ]
+    },
+    {
+      "id": "winrar",
+      "name": "WinRAR",
+      "category": "utility",
+      "description": "经典压缩解压软件，格式支持最广",
+      "icon": "https://www.google.com/s2/favicons?domain=win-rar.com&sz=64",
+      "officialUrl": "https://www.win-rar.com/",
+      "officialDownload": "https://www.win-rar.com/download.html",
+      "crackedLinks": []
+    },
+    {
+      "id": "peazip",
+      "name": "PeaZip",
+      "category": "utility",
+      "description": "免费开源的跨平台压缩工具",
+      "icon": "https://www.google.com/s2/favicons?domain=peazip.github.io&sz=64",
+      "officialUrl": "https://peazip.github.io/",
+      "officialDownload": "https://peazip.github.io/",
+      "crackedLinks": []
+    },
+    {
+      "id": "powerToys",
+      "name": "Microsoft PowerToys",
+      "category": "utility",
+      "description": "微软官方 Windows 增强工具集",
+      "icon": "https://www.google.com/s2/favicons?domain=github.com&sz=64",
+      "officialUrl": "https://github.com/microsoft/PowerToys",
+      "officialDownload": "https://github.com/microsoft/PowerToys/releases",
+      "crackedLinks": []
+    },
+    {
+      "id": "listary",
+      "name": "Listary",
+      "category": "utility",
+      "description": "文件快速跳转和搜索工具，效率神器",
+      "icon": "https://www.google.com/s2/favicons?domain=listary.com&sz=64",
+      "officialUrl": "https://www.listary.com/",
+      "officialDownload": "https://www.listary.com/download",
+      "crackedLinks": []
+    },
+    {
+      "id": "wox",
+      "name": "Wox",
+      "category": "utility",
+      "description": "开源的 Windows 启动器和快捷搜索工具",
+      "icon": "https://www.google.com/s2/favicons?domain=github.com&sz=64",
+      "officialUrl": "https://github.com/Wox-launcher/Wox",
+      "officialDownload": "https://github.com/Wox-launcher/Wox/releases",
+      "crackedLinks": []
+    },
+    {
+      "id": "quicker",
+      "name": "Quicker",
+      "category": "utility",
+      "description": "Windows 动作启动器，拖拽配置自动化流程",
+      "icon": "https://www.google.com/s2/favicons?domain=getquicker.net&sz=64",
+      "officialUrl": "https://getquicker.net/",
+      "officialDownload": "https://getquicker.net/Downloads",
+      "crackedLinks": []
+    },
+    {
+      "id": "autohotkey",
+      "name": "AutoHotkey",
+      "category": "utility",
+      "description": "Windows 脚本自动化神器，快捷键和自动化利器",
+      "icon": "https://www.google.com/s2/favicons?domain=autohotkey.com&sz=64",
+      "officialUrl": "https://www.autohotkey.com/",
+      "officialDownload": "https://www.autohotkey.com/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "geek-uninstaller",
+      "name": "Geek Uninstaller",
+      "category": "utility",
+      "description": "强力卸载工具，彻底清除残留",
+      "icon": "https://www.google.com/s2/favicons?domain=geekuninstaller.com&sz=64",
+      "officialUrl": "https://geekuninstaller.com/",
+      "officialDownload": "https://geekuninstaller.com/download",
+      "crackedLinks": []
+    },
+    {
+      "id": "revo-uninstaller",
+      "name": "Revo Uninstaller",
+      "category": "utility",
+      "description": "专业软件卸载工具，支持批量卸载和残留清理",
+      "icon": "https://www.google.com/s2/favicons?domain=revouninstaller.com&sz=64",
+      "officialUrl": "https://www.revouninstaller.com/",
+      "officialDownload": "https://www.revouninstaller.com/download.php",
+      "crackedLinks": []
+    },
+    {
+      "id": "dism",
+      "name": "Dism++",
+      "category": "utility",
+      "description": "Windows 系统精简和优化工具",
+      "icon": "https://www.google.com/s2/favicons?domain=github.com&sz=64",
+      "officialUrl": "https://github.com/Chuyu-Team/Dism-Multi-Tool",
+      "officialDownload": "https://github.com/Chuyu-Team/Dism-Multi-Tool/releases",
+      "crackedLinks": []
+    },
+    {
+      "id": "ccleaner",
+      "name": "CCleaner",
+      "category": "utility",
+      "description": "系统垃圾清理和隐私保护工具",
+      "icon": "https://cdn.simpleicons.org/ccleaner",
+      "officialUrl": "https://www.ccleaner.com/",
+      "officialDownload": "https://www.ccleaner.com/download",
+      "crackedLinks": []
+    },
+    {
+      "id": "rufus",
+      "name": "Rufus",
+      "category": "utility",
+      "description": "制作 USB 启动盘的最佳工具",
+      "icon": "https://www.google.com/s2/favicons?domain=rufus.ie&sz=64",
+      "officialUrl": "https://rufus.ie/",
+      "officialDownload": "https://rufus.ie/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "ventoy",
+      "name": "Ventoy",
+      "category": "utility",
+      "description": "新一代启动盘制作工具，直接拷贝 ISO 即可",
+      "icon": "https://www.google.com/s2/favicons?domain=ventoy.net&sz=64",
+      "officialUrl": "https://www.ventoy.net/",
+      "officialDownload": "https://www.ventoy.net/en/download.html",
+      "crackedLinks": []
+    },
+    {
+      "id": "ultraiso",
+      "name": "UltraISO",
+      "category": "utility",
+      "description": "ISO 镜像编辑和刻录工具",
+      "icon": "https://www.google.com/s2/favicons?domain=ezbsystems.com&sz=64",
+      "officialUrl": "https://www.ezbsystems.com/ultraiso/",
+      "officialDownload": "https://www.ezbsystems.com/ultraiso/download.htm",
+      "crackedLinks": []
+    },
+    {
+      "id": "cpu-z",
+      "name": "CPU-Z",
+      "category": "utility",
+      "description": "CPU/主板/内存硬件信息查看工具",
+      "icon": "https://www.google.com/s2/favicons?domain=cpuid.com&sz=64",
+      "officialUrl": "https://www.cpuid.com/softwares/cpu-z.html",
+      "officialDownload": "https://www.cpuid.com/softwares/cpu-z.html",
+      "crackedLinks": []
+    },
+    {
+      "id": "gpu-z",
+      "name": "GPU-Z",
+      "category": "utility",
+      "description": "GPU 显卡信息查看和监控工具",
+      "icon": "https://www.google.com/s2/favicons?domain=techpowerup.com&sz=64",
+      "officialUrl": "https://www.techpowerup.com/gpuz/",
+      "officialDownload": "https://www.techpowerup.com/gpuz/",
+      "crackedLinks": []
+    },
+    {
+      "id": "hwmonitor",
+      "name": "HWMonitor",
+      "category": "utility",
+      "description": "硬件温度和电压实时监控工具",
+      "icon": "https://www.google.com/s2/favicons?domain=cpuid.com&sz=64",
+      "officialUrl": "https://www.cpuid.com/softwares/hwmonitor.html",
+      "officialDownload": "https://www.cpuid.com/softwares/hwmonitor.html",
+      "crackedLinks": []
+    },
+    {
+      "id": "ditto",
+      "name": "Ditto",
+      "category": "utility",
+      "description": "Windows 剪贴板管理工具，历史记录无限保存",
+      "icon": "https://www.google.com/s2/favicons?domain=ditto-cp.sourceforge.io&sz=64",
+      "officialUrl": "https://ditto-cp.sourceforge.io/",
+      "officialDownload": "https://ditto-cp.sourceforge.io/",
+      "crackedLinks": []
+    },
+    {
+      "id": "f.lux",
+      "name": "f.lux",
+      "category": "utility",
+      "description": "根据时间自动调整屏幕色温，护眼神器",
+      "icon": "https://www.google.com/s2/favicons?domain=justgetflux.com&sz=64",
+      "officialUrl": "https://justgetflux.com/",
+      "officialDownload": "https://justgetflux.com/",
+      "crackedLinks": []
+    },
+    {
+      "id": "total-commander",
+      "name": "Total Commander",
+      "category": "utility",
+      "description": "老牌双面板文件管理器，功能强大",
+      "icon": "https://www.google.com/s2/favicons?domain=ghisler.com&sz=64",
+      "officialUrl": "https://www.ghisler.com/",
+      "officialDownload": "https://www.ghisler.com/download.htm",
+      "crackedLinks": []
+    },
+    {
+      "id": "displayfusion",
+      "name": "DisplayFusion",
+      "category": "utility",
+      "description": "多显示器管理工具，壁纸独立设置和任务栏增强",
+      "icon": "https://www.google.com/s2/favicons?domain=displayfusion.com&sz=64",
+      "officialUrl": "https://www.displayfusion.com/",
+      "officialDownload": "https://www.displayfusion.com/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "space-sniffer",
+      "name": "SpaceSniffer",
+      "category": "utility",
+      "description": "磁盘空间可视化分析工具，一眼看清谁占空间",
+      "icon": "https://www.google.com/s2/favicons?domain=uderzo.it&sz=64",
+      "officialUrl": "https://www.uderzo.it/main_products/space_sniffer/",
+      "officialDownload": "https://www.uderzo.it/main_products/space_sniffer/download.html",
+      "crackedLinks": []
+    },
+    {
+      "id": "traffic-monitor",
+      "name": "TrafficMonitor",
+      "category": "utility",
+      "description": "开源的网速/CPU/内存悬浮窗监控工具",
+      "icon": "https://www.google.com/s2/favicons?domain=github.com&sz=64",
+      "officialUrl": "https://github.com/zhongyang219/TrafficMonitor",
+      "officialDownload": "https://github.com/zhongyang219/TrafficMonitor/releases",
+      "crackedLinks": []
+    },
+    {
+      "id": "wise-care",
+      "name": "Wise Care 365",
+      "category": "utility",
+      "description": "系统优化和清理套件",
+      "icon": "https://www.google.com/s2/favicons?domain=wisecleaner.com&sz=64",
+      "officialUrl": "https://www.wisecleaner.com/wise-care-365.html",
+      "officialDownload": "https://www.wisecleaner.com/download.html",
+      "crackedLinks": []
+    },
+    {
+      "id": "sandboxie",
+      "name": "Sandboxie Plus",
+      "category": "utility",
+      "description": "沙盒隔离运行环境，安全测试软件",
+      "icon": "https://www.google.com/s2/favicons?domain=sandboxie-plus.com&sz=64",
+      "officialUrl": "https://sandboxie-plus.com/",
+      "officialDownload": "https://sandboxie-plus.com/downloads/",
+      "crackedLinks": []
+    },
+    {
+      "id": "wechat",
+      "name": "微信",
+      "category": "communication",
+      "description": "国内最广泛使用的即时通讯软件",
+      "icon": "https://cdn.simpleicons.org/wechat",
+      "officialUrl": "https://weixin.qq.com/",
+      "officialDownload": "https://weixin.qq.com/",
+      "crackedLinks": []
+    },
+    {
+      "id": "telegram",
+      "name": "Telegram",
+      "category": "communication",
+      "description": "注重隐私的加密即时通讯工具，支持大群组和频道",
+      "icon": "https://cdn.simpleicons.org/telegram",
+      "officialUrl": "https://telegram.org/",
+      "officialDownload": "https://desktop.telegram.org/",
+      "crackedLinks": []
+    },
+    {
+      "id": "qq",
+      "name": "QQ",
+      "category": "communication",
+      "description": "腾讯经典即时通讯软件，支持音视频和文件传输",
+      "icon": "https://www.google.com/s2/favicons?domain=im.qq.com&sz=64",
+      "officialUrl": "https://im.qq.com/",
+      "officialDownload": "https://im.qq.com/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "dingtalk",
+      "name": "钉钉",
+      "category": "communication",
+      "description": "阿里旗下企业办公通讯工具",
+      "icon": "https://www.google.com/s2/favicons?domain=dingtalk.com&sz=64",
+      "officialUrl": "https://www.dingtalk.com/",
+      "officialDownload": "https://www.dingtalk.com/download",
+      "crackedLinks": []
+    },
+    {
+      "id": "feishu",
+      "name": "飞书",
+      "category": "communication",
+      "description": "字节跳动旗下企业协作通讯平台",
+      "icon": "https://www.google.com/s2/favicons?domain=feishu.cn&sz=64",
+      "officialUrl": "https://www.feishu.cn/",
+      "officialDownload": "https://www.feishu.cn/download",
+      "crackedLinks": []
+    },
+    {
+      "id": "discord",
+      "name": "Discord",
+      "category": "communication",
+      "description": "全球最流行的游戏和社区语音通讯平台",
+      "icon": "https://cdn.simpleicons.org/discord",
+      "officialUrl": "https://discord.com/",
+      "officialDownload": "https://discord.com/download",
+      "crackedLinks": []
+    },
+    {
+      "id": "slack",
+      "name": "Slack",
+      "category": "communication",
+      "description": "企业团队协作通讯工具，频道管理出色",
+      "icon": "https://cdn.simpleicons.org/slack",
+      "officialUrl": "https://slack.com/",
+      "officialDownload": "https://slack.com/downloads/",
+      "crackedLinks": []
+    },
+    {
+      "id": "teams",
+      "name": "Microsoft Teams",
+      "category": "communication",
+      "description": "微软企业通讯和协作平台",
+      "icon": "https://cdn.simpleicons.org/microsoftteams",
+      "officialUrl": "https://www.microsoft.com/microsoft-teams",
+      "officialDownload": "https://www.microsoft.com/microsoft-teams/download-app",
+      "crackedLinks": []
+    },
+    {
+      "id": "zoom",
+      "name": "Zoom",
+      "category": "communication",
+      "description": "全球流行的视频会议和远程协作工具",
+      "icon": "https://cdn.simpleicons.org/zoom",
+      "officialUrl": "https://zoom.us/",
+      "officialDownload": "https://zoom.us/download",
+      "crackedLinks": []
+    },
+    {
+      "id": "skype",
+      "name": "Skype",
+      "category": "communication",
+      "description": "微软旗下老牌语音和视频通话工具",
+      "icon": "https://cdn.simpleicons.org/skype",
+      "officialUrl": "https://www.skype.com/",
+      "officialDownload": "https://www.skype.com/get-skype/",
+      "crackedLinks": []
+    },
+    {
+      "id": "whatsapp",
+      "name": "WhatsApp",
+      "category": "communication",
+      "description": "全球用户量最大的即时通讯应用",
+      "icon": "https://cdn.simpleicons.org/whatsapp",
+      "officialUrl": "https://www.whatsapp.com/",
+      "officialDownload": "https://www.whatsapp.com/download",
+      "crackedLinks": []
+    },
+    {
+      "id": "signal",
+      "name": "Signal",
+      "category": "communication",
+      "description": "最安全的端对端加密通讯应用",
+      "icon": "https://cdn.simpleicons.org/signal",
+      "officialUrl": "https://signal.org/",
+      "officialDownload": "https://signal.org/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "line",
+      "name": "LINE",
+      "category": "communication",
+      "description": "日本/东南亚流行的即时通讯应用",
+      "icon": "https://cdn.simpleicons.org/line",
+      "officialUrl": "https://line.me/",
+      "officialDownload": "https://line.me/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "viber",
+      "name": "Viber",
+      "category": "communication",
+      "description": "跨平台 VoIP 和即时通讯应用",
+      "icon": "https://cdn.simpleicons.org/viber",
+      "officialUrl": "https://www.viber.com/",
+      "officialDownload": "https://www.viber.com/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "twitter",
+      "name": "X (Twitter)",
+      "category": "communication",
+      "description": "全球最大的社交媒体和微博平台",
+      "icon": "https://cdn.simpleicons.org/x",
+      "officialUrl": "https://x.com/",
+      "officialDownload": "https://x.com/download",
+      "crackedLinks": []
+    },
+    {
+      "id": "weibo",
+      "name": "微博",
+      "category": "communication",
+      "description": "中国最大的社交媒体和资讯平台",
+      "icon": "https://www.google.com/s2/favicons?domain=weibo.com&sz=64",
+      "officialUrl": "https://weibo.com/",
+      "officialDownload": "https://weibo.com/",
+      "crackedLinks": []
+    },
+    {
+      "id": "小红书",
+      "name": "小红书",
+      "category": "communication",
+      "description": "生活方式分享社区，种草和购物平台",
+      "icon": "https://www.google.com/s2/favicons?domain=xiaohongshu.com&sz=64",
+      "officialUrl": "https://www.xiaohongshu.com/",
+      "officialDownload": "https://www.xiaohongshu.com/",
+      "crackedLinks": []
+    },
+    {
+      "id": "知乎",
+      "name": "知乎",
+      "category": "communication",
+      "description": "中文高质量问答和知识分享社区",
+      "icon": "https://www.google.com/s2/favicons?domain=zhihu.com&sz=64",
+      "officialUrl": "https://www.zhihu.com/",
+      "officialDownload": "https://www.zhihu.com/app",
+      "crackedLinks": []
+    },
+    {
+      "id": "douyin",
+      "name": "抖音",
+      "category": "communication",
+      "description": "字节跳动旗下的短视频社交平台",
+      "icon": "https://www.google.com/s2/favicons?domain=douyin.com&sz=64",
+      "officialUrl": "https://www.douyin.com/",
+      "officialDownload": "https://www.douyin.com/",
+      "crackedLinks": []
+    },
+    {
+      "id": "bilibili",
+      "name": "哔哩哔哩",
+      "category": "communication",
+      "description": "年轻人最爱的弹幕视频社区",
+      "icon": "https://www.google.com/s2/favicons?domain=bilibili.com&sz=64",
+      "officialUrl": "https://www.bilibili.com/",
+      "officialDownload": "https://www.bilibili.com/",
+      "crackedLinks": []
+    },
+    {
+      "id": "instagram",
+      "name": "Instagram",
+      "category": "communication",
+      "description": "全球最大的图片和短视频社交平台",
+      "icon": "https://cdn.simpleicons.org/instagram",
+      "officialUrl": "https://www.instagram.com/",
+      "officialDownload": "https://www.instagram.com/about/",
+      "crackedLinks": []
+    },
+    {
+      "id": "facebook-messenger",
+      "name": "Facebook Messenger",
+      "category": "communication",
+      "description": "Meta 旗下的即时通讯应用",
+      "icon": "https://cdn.simpleicons.org/messenger",
+      "officialUrl": "https://www.messenger.com/",
+      "officialDownload": "https://www.messenger.com/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "kakaotalk",
+      "name": "KakaoTalk",
+      "category": "communication",
+      "description": "韩国国民级即时通讯应用",
+      "icon": "https://www.google.com/s2/favicons?domain=kakaocorp.com&sz=64",
+      "officialUrl": "https://www.kakaocorp.com/page/service/KakaoTalk",
+      "officialDownload": "https://www.kakaocorp.com/page/service/KakaoTalk",
+      "crackedLinks": []
+    },
+    {
+      "id": "tiktok",
+      "name": "TikTok",
+      "category": "communication",
+      "description": "字节跳动旗下的全球短视频社交平台",
+      "icon": "https://cdn.simpleicons.org/tiktok",
+      "officialUrl": "https://www.tiktok.com/",
+      "officialDownload": "https://www.tiktok.com/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "soul",
+      "name": "Soul",
+      "category": "communication",
+      "description": "基于兴趣的匿名社交平台",
+      "icon": "https://www.google.com/s2/favicons?domain=soulapp.cn&sz=64",
+      "officialUrl": "https://www.soulapp.cn/",
+      "officialDownload": "https://www.soulapp.cn/",
+      "crackedLinks": []
+    },
+    {
+      "id": "momo",
+      "name": "陌陌",
+      "category": "communication",
+      "description": "基于位置的社交和直播平台",
+      "icon": "https://www.google.com/s2/favicons?domain=immomo.com&sz=64",
+      "officialUrl": "https://www.immomo.com/",
+      "officialDownload": "https://www.immomo.com/download",
+      "crackedLinks": []
+    },
+    {
+      "id": "threads",
+      "name": "Threads",
+      "category": "communication",
+      "description": "Meta 出品的文字社交平台，与 Instagram 关联",
+      "icon": "https://cdn.simpleicons.org/threads",
+      "officialUrl": "https://www.threads.net/",
+      "officialDownload": "https://www.threads.net/",
+      "crackedLinks": []
+    },
+    {
+      "id": "kaspersky",
+      "name": "卡巴斯基",
+      "category": "security",
+      "description": "全球顶级安全软件，病毒查杀能力强",
+      "icon": "https://cdn.simpleicons.org/kaspersky",
+      "officialUrl": "https://www.kaspersky.com.cn/",
+      "officialDownload": "https://www.kaspersky.com.cn/downloads",
+      "crackedLinks": [
+        {
+          "id": "kas-crack-1",
+          "label": "卡巴斯基 2024 激活码分享",
+          "url": "https://github.com/SkidX/kaspersky-keys",
+          "likes": 189,
+          "dislikes": 55,
+          "submittedAt": "2024-07-01",
+          "approved": true
+        }
+      ]
+    },
+    {
+      "id": "huorong",
+      "name": "火绒安全",
+      "category": "security",
+      "description": "国产良心安全软件，安静无广告，弹窗拦截出色",
+      "icon": "https://www.google.com/s2/favicons?domain=huorong.cn&sz=64",
+      "officialUrl": "https://www.huorong.cn/",
+      "officialDownload": "https://www.huorong.cn/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "360-security",
+      "name": "360 安全卫士",
+      "category": "security",
+      "description": "国内用户量最大的安全防护软件",
+      "icon": "https://www.google.com/s2/favicons?domain=360.cn&sz=64",
+      "officialUrl": "https://www.360.cn/",
+      "officialDownload": "https://www.360.cn/",
+      "crackedLinks": []
+    },
+    {
+      "id": "avast",
+      "name": "Avast",
+      "category": "security",
+      "description": "全球知名免费杀毒软件，用户量超4亿",
+      "icon": "https://cdn.simpleicons.org/avast",
+      "officialUrl": "https://www.avast.com/",
+      "officialDownload": "https://www.avast.com/download",
+      "crackedLinks": []
+    },
+    {
+      "id": "avg",
+      "name": "AVG",
+      "category": "security",
+      "description": "Avast 旗下杀毒软件，轻量高效",
+      "icon": "https://cdn.simpleicons.org/avg",
+      "officialUrl": "https://www.avg.com/",
+      "officialDownload": "https://www.avg.com/download",
+      "crackedLinks": []
+    },
+    {
+      "id": "avira",
+      "name": "Avira",
+      "category": "security",
+      "description": "德国出品的杀毒软件，查杀率高",
+      "icon": "https://cdn.simpleicons.org/avira",
+      "officialUrl": "https://www.avira.com/",
+      "officialDownload": "https://www.avira.com/download",
+      "crackedLinks": []
+    },
+    {
+      "id": "bitdefender",
+      "name": "Bitdefender",
+      "category": "security",
+      "description": "罗马尼亚顶级杀毒软件，多次获得评测冠军",
+      "icon": "https://cdn.simpleicons.org/bitdefender",
+      "officialUrl": "https://www.bitdefender.com/",
+      "officialDownload": "https://www.bitdefender.com/downloads/",
+      "crackedLinks": []
+    },
+    {
+      "id": "eset",
+      "name": "ESET NOD32",
+      "category": "security",
+      "description": "轻量高效的杀毒软件，系统占用低",
+      "icon": "https://cdn.simpleicons.org/eset",
+      "officialUrl": "https://www.eset.com/",
+      "officialDownload": "https://www.eset.com/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "malwarebytes",
+      "name": "Malwarebytes",
+      "category": "security",
+      "description": "专业恶意软件扫描和清除工具",
+      "icon": "https://cdn.simpleicons.org/malwarebytes",
+      "officialUrl": "https://www.malwarebytes.com/",
+      "officialDownload": "https://www.malwarebytes.com/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "adwcleaner",
+      "name": "AdwCleaner",
+      "category": "security",
+      "description": "Malwarebytes 出品的广告软件/捆绑软件清理工具",
+      "icon": "https://www.google.com/s2/favicons?domain=malwarebytes.com&sz=64",
+      "officialUrl": "https://www.malwarebytes.com/adwcleaner/",
+      "officialDownload": "https://www.malwarebytes.com/adwcleaner/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "hitmanpro",
+      "name": "HitmanPro",
+      "category": "security",
+      "description": "二次扫描式反恶意软件，深入查杀",
+      "icon": "https://www.google.com/s2/favicons?domain=sophos.com&sz=64",
+      "officialUrl": "https://www.sophos.com/en-us/medialibrary/pdfs/whitepapers/hitmanpro",
+      "officialDownload": "https://www.sophos.com/en-us/threat-analysis-tools",
+      "crackedLinks": []
+    },
+    {
+      "id": "norton",
+      "name": "Norton 360",
+      "category": "security",
+      "description": "Symantec 旗舰安全套件，含 VPN 和云备份",
+      "icon": "https://cdn.simpleicons.org/norton",
+      "officialUrl": "https://us.norton.com/",
+      "officialDownload": "https://us.norton.com/download",
+      "crackedLinks": []
+    },
+    {
+      "id": "mcafee",
+      "name": "McAfee",
+      "category": "security",
+      "description": "老牌安全软件，全平台保护",
+      "icon": "https://cdn.simpleicons.org/mcafee",
+      "officialUrl": "https://www.mcafee.com/",
+      "officialDownload": "https://www.mcafee.com/download",
+      "crackedLinks": []
+    },
+    {
+      "id": "trend-micro",
+      "name": "Trend Micro",
+      "category": "security",
+      "description": "趋势科技安全套件，云安全领先",
+      "icon": "https://www.google.com/s2/favicons?domain=trendmicro.com&sz=64",
+      "officialUrl": "https://www.trendmicro.com/",
+      "officialDownload": "https://www.trendmicro.com/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "sophos",
+      "name": "Sophos Home",
+      "category": "security",
+      "description": "企业级安全方案提供的家庭免费版",
+      "icon": "https://www.google.com/s2/favicons?domain=sophos.com&sz=64",
+      "officialUrl": "https://home.sophos.com/",
+      "officialDownload": "https://home.sophos.com/en-us/downloads",
+      "crackedLinks": []
+    },
+    {
+      "id": "comodo-security",
+      "name": "Comodo Internet Security",
+      "category": "security",
+      "description": "免费防火墙+杀毒+沙盒安全套件",
+      "icon": "https://www.google.com/s2/favicons?domain=comodo.com&sz=64",
+      "officialUrl": "https://www.comodo.com/home/internet-security/",
+      "officialDownload": "https://www.comodo.com/home/internet-security/download.php",
+      "crackedLinks": []
+    },
+    {
+      "id": "glasswire",
+      "name": "GlassWire",
+      "category": "security",
+      "description": "网络流量监控和防火墙可视化工具",
+      "icon": "https://www.google.com/s2/favicons?domain=glasswire.com&sz=64",
+      "officialUrl": "https://www.glasswire.com/",
+      "officialDownload": "https://www.glasswire.com/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "wireguard",
+      "name": "WireGuard",
+      "category": "security",
+      "description": "现代高性能 VPN 协议实现",
+      "icon": "https://cdn.simpleicons.org/wireguard",
+      "officialUrl": "https://www.wireguard.com/",
+      "officialDownload": "https://www.wireguard.com/install/",
+      "crackedLinks": []
+    },
+    {
+      "id": "clash",
+      "name": "Clash Verge",
+      "category": "security",
+      "description": "基于 Clash 内核的代理工具 GUI 客户端",
+      "icon": "https://www.google.com/s2/favicons?domain=github.com&sz=64",
+      "officialUrl": "https://github.com/clash-verge-rev/clash-verge-rev",
+      "officialDownload": "https://github.com/clash-verge-rev/clash-verge-rev/releases",
+      "crackedLinks": []
+    },
+    {
+      "id": "v2rayn",
+      "name": "v2rayN",
+      "category": "security",
+      "description": "V2Ray 的 Windows 图形客户端",
+      "icon": "https://www.google.com/s2/favicons?domain=github.com&sz=64",
+      "officialUrl": "https://github.com/2dust/v2rayN",
+      "officialDownload": "https://github.com/2dust/v2rayN/releases",
+      "crackedLinks": []
+    },
+    {
+      "id": "protonvpn",
+      "name": "ProtonVPN",
+      "category": "security",
+      "description": "瑞士 Proton 出品，注重隐私的 VPN",
+      "icon": "https://cdn.simpleicons.org/protonvpn",
+      "officialUrl": "https://protonvpn.com/",
+      "officialDownload": "https://protonvpn.com/download",
+      "crackedLinks": []
+    },
+    {
+      "id": "nordvpn",
+      "name": "NordVPN",
+      "category": "security",
+      "description": "全球用户量最大的付费 VPN 之一",
+      "icon": "https://cdn.simpleicons.org/nordvpn",
+      "officialUrl": "https://nordvpn.com/",
+      "officialDownload": "https://nordvpn.com/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "1password",
+      "name": "1Password",
+      "category": "security",
+      "description": "知名密码管理器，安全存储密码和敏感信息",
+      "icon": "https://cdn.simpleicons.org/1password",
+      "officialUrl": "https://1password.com/",
+      "officialDownload": "https://1password.com/downloads/",
+      "crackedLinks": []
+    },
+    {
+      "id": "bitwarden",
+      "name": "Bitwarden",
+      "category": "security",
+      "description": "免费开源的密码管理器，可自建服务端",
+      "icon": "https://cdn.simpleicons.org/bitwarden",
+      "officialUrl": "https://bitwarden.com/",
+      "officialDownload": "https://bitwarden.com/download/",
+      "crackedLinks": []
+    },
+    {
+      "id": "keepass",
+      "name": "KeePass",
+      "category": "security",
+      "description": "免费开源的本地密码管理器",
+      "icon": "https://cdn.simpleicons.org/keepass",
+      "officialUrl": "https://keepass.info/",
+      "officialDownload": "https://keepass.info/download.html",
+      "crackedLinks": []
+    },
+    {
+      "id": "windows-defender",
+      "name": "Windows Security",
+      "category": "security",
+      "description": "Windows 自带安全防护，查杀能力逐年提升",
+      "icon": "https://cdn.simpleicons.org/windows",
+      "officialUrl": "https://support.microsoft.com/windows",
+      "officialDownload": "https://www.microsoft.com/windows",
+      "crackedLinks": []
+    },
+    {
+      "id": "adguard",
+      "name": "AdGuard",
+      "category": "security",
+      "description": "全平台广告拦截器，系统级去广告",
+      "icon": "https://cdn.simpleicons.org/adguard",
+      "officialUrl": "https://adguard.com/",
+      "officialDownload": "https://adguard.com/download.html",
+      "crackedLinks": []
+    },
+    {
+      "id": "encryptr",
+      "name": "Cryptomator",
+      "category": "security",
+      "description": "开源的文件加密工具，保护云盘隐私",
+      "icon": "https://www.google.com/s2/favicons?domain=cryptomator.org&sz=64",
+      "officialUrl": "https://cryptomator.org/",
+      "officialDownload": "https://cryptomator.org/downloads/",
+      "crackedLinks": []
+    },
+    {
+      "id": "veracrypt",
+      "name": "VeraCrypt",
+      "category": "security",
+      "description": "开源的磁盘加密工具，TrueCrypt 继承者",
+      "icon": "https://www.google.com/s2/favicons?domain=veracrypt.fr&sz=64",
+      "officialUrl": "https://www.veracrypt.fr/",
+      "officialDownload": "https://www.veracrypt.fr/en/Downloads.html",
+      "crackedLinks": []
+    },
+    {
+      "id": "3c00002f-7d09-491d-972a-e534e692d065",
+      "name": "Steam",
+      "category": "media",
+      "description": "全球最大的综合性数字发行平台之一，提供数千款游戏及玩家社区功能",
+      "icon": "https://store.steampowered.com/favicon.ico",
+      "officialUrl": "https://store.steampowered.com/",
+      "officialDownload": "https://store.steampowered.com/about/",
+      "crackedLinks": [],
+      "submittedAt": "2026-04-20"
+    }
+  ],
+  "pendingSoftware": [],
+  "pendingCategories": []
+}

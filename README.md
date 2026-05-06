@@ -53,21 +53,6 @@
 
 ---
 
-## 本地开发
-
-```bash
-# 克隆仓库
-git clone https://github.com/lyf2nb/<repo-name>.git
-cd <repo-name>
-
-# 启动后端（示例，根据你的后端实现调整）
-npm install
-npm start
-
-# 用浏览器打开 index.html 或访问 http://localhost:3000
-```
-
----
 
 ## 贡献
 
